@@ -1,0 +1,30 @@
+﻿@model School.Application.Features.Departments.Dtos.Get.GetDepartmentOutput
+
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+
+    <form asp-action="AddDepartment" asp-controller="Department" method="POST" >
+        <div>
+            <label for="departmentName">Department Name:</label>
+            <input type="text" asp-for="Name"  required>
+        </div>
+        <div>
+            <label for="departmentLocation">Department Location:</label>
+            <input type="text" asp-for="Description"  required>
+        </div>
+        <div>
+            <input type="submit" value="Add Department">
+        </div>
+    </form>
+
+</body>
+</html>

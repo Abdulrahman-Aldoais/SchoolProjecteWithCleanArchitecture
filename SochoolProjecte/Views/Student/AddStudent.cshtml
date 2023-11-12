@@ -1,0 +1,39 @@
+﻿@model StudentCreateViewModel
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+
+    <form asp-action="AddStudent" asp-controller="Student" method="POST">
+        <div>
+            <label for="departmentName">الاسم:</label>
+            <input type="text" asp-for="Student.Name" required>
+        </div>
+        <div>
+            <label for="departmentName">العمر:</label>
+            <input type="number" asp-for="Student.Age" required>
+        </div>
+        <div>
+            <label for="departmentLocation">القسم:</label>
+            <select asp-for="Student.DepartmentId" class="form-control" required>
+                <option selected="selected" value="0">اختر صنف المنشور</option>
+                @foreach (var item in Model.getListDepartment)
+                {
+                    <option value="@item.Id">@item.Name</option>
+                }
+            </select>
+            </div>
+            <div>
+                <input type="submit" value="Add Department">
+            </div>
+    </form>
+
+</body>
+</html>
