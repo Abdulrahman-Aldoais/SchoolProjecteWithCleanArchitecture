@@ -1,13 +1,16 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using School.Application.Features.Departments.Commands.Create;
+using School.Application.Features.Departments.Queries.GetList;
 
 namespace SchoolProjecte.Controllers
 {
     public class DepartmentController : BaseController
     {
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            return View();
+            var getAllDepartment = await Mediator.Send(new GetDepartmentListQuery());
+
+            return View(getAllDepartment.Data);
         }
 
         [HttpGet]
@@ -23,7 +26,7 @@ namespace SchoolProjecte.Controllers
             if (result.Success)
             {
                 NotifySuccess(result.Message);
-                return RedirectToAction("Department", "Index");
+                return RedirectToAction("Index", "Department");
             }
             else
             {

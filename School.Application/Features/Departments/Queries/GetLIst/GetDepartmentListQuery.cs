@@ -1,10 +1,10 @@
 ﻿using Core.Application.Responses;
 using MediatR;
-using School.Application.Features.Departments.Dtos.Get;
+using School.Application.Features.Departments.Dtos.GetList;
 
 namespace School.Application.Features.Departments.Queries.GetList
 {
-    public class GetDepartmentListQuery : IRequest<BaseCommandResponse<List<GetDepartmentOutput>>>
+    public class GetDepartmentListQuery : IRequest<BaseCommandResponse<List<GetDepartmentListOutput>>>
     {
 
     }

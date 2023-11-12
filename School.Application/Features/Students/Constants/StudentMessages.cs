@@ -1,6 +1,6 @@
 ﻿namespace School.Application.Features.Students.Constants
 {
-    public static class DepartmentMessages
+    public static class StudentMessages
     {
         public const string GetByIdExists = "سجل الطالب موجود بالفعل";
         public const string GetByIdNotExists = "لم يتم العثور على رقم الطالب";

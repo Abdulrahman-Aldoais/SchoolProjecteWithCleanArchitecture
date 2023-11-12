@@ -1,12 +1,12 @@
 ﻿using AutoMapper;
 using Core.Application.Responses;
 using MediatR;
-using School.Application.Features.Departments.Dtos.Get;
+using School.Application.Features.Departments.Dtos.GetList;
 using School.Application.Repositories.DepartmentRepository;
 
 namespace School.Application.Features.Departments.Queries.GetList
 {
-    public class GetDepartmentQueryHandler : IRequestHandler<GetDepartmentListQuery, BaseCommandResponse<List<GetDepartmentOutput>>>
+    public class GetDepartmentQueryHandler : IRequestHandler<GetDepartmentListQuery, BaseCommandResponse<List<GetDepartmentListOutput>>>
     {
         private readonly IMapper _mapper;
         private readonly IDepartmentReadRepository _departmentReadRepository;
@@ -17,9 +17,9 @@ namespace School.Application.Features.Departments.Queries.GetList
             _departmentReadRepository = departmentReadRepository;
         }
 
-        public async Task<BaseCommandResponse<List<GetDepartmentOutput>>> Handle(GetDepartmentListQuery request, CancellationToken cancellationToken)
+        public async Task<BaseCommandResponse<List<GetDepartmentListOutput>>> Handle(GetDepartmentListQuery request, CancellationToken cancellationToken)
         {
-            var response = new BaseCommandResponse<List<GetDepartmentOutput>>();
+            var response = new BaseCommandResponse<List<GetDepartmentListOutput>>();
             var result = await _departmentReadRepository.GetListAsync();
 
             if (!result.Any())
@@ -27,11 +27,11 @@ namespace School.Application.Features.Departments.Queries.GetList
                 response.Success = false;
                 response.Message = DepartmentMessages.GetListNotExists;
                 response.Errors = null;
-                response.Data = new List<GetDepartmentOutput>();
+                response.Data = new List<GetDepartmentListOutput>();
             }
             else
             {
-                var resultMapp = _mapper.Map<List<GetDepartmentOutput>>(result);
+                var resultMapp = _mapper.Map<List<GetDepartmentListOutput>>(result);
                 response.Data = resultMapp;
                 response.Success = true;
                 response.Message = DepartmentMessages.GetListExists;

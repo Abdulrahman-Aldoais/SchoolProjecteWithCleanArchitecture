@@ -11,7 +11,6 @@
     <Folder Include="Features\Departments\Commands\Update\" />
     <Folder Include="Features\Students\Commands\Delete\" />
     <Folder Include="Features\Students\Commands\Update\" />
-    <Folder Include="Features\Students\Queries\GetList\" />
     <Folder Include="Features\Students\Queries\Get\" />
     <Folder Include="Service\UserService\" />
   </ItemGroup>

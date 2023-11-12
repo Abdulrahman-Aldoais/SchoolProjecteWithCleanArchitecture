@@ -1,0 +1,52 @@
+﻿@model IEnumerable<School.Application.Features.Departments.Dtos.GetList.GetDepartmentListOutput>
+@{
+    ViewData["Title"] = "قائمة الاقسام";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>بيانات الطالب</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 8px;
+            text-align: right;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1> <a asp-controller="Department" asp-action="AddDepartment">إضافة قسم</a></h1>
+    <br />
+    <br />
+    <br />
+    <h1>قائمة الاقسام</h1>
+    <table>
+        <tr>
+            <th>الرقم</th>
+            <th>الاسم</th>
+            <th>تاريخ الاضافة</th>
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.Name</td>
+                <td>@item.CreateTime</td>
+            </tr>
+        }
+
+    </table>
+</body>
+</html>

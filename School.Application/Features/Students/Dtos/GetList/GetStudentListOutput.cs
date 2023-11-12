@@ -1,12 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace School.Application.Features.Students.Dtos.GetList
+﻿namespace School.Application.Features.Students.Dtos.GetList
 {
-    internal class GetStudentListOutput
+    public class GetStudentListOutput
     {
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public DateTime CreateTime { get; set; }
+        public int Age { get; set; }
+        public string DepartmentName { get; set; }
     }
 }

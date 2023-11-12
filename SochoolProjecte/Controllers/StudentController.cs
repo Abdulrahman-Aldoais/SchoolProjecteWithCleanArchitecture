@@ -2,35 +2,38 @@
 using School.Application.Features.Departments.Queries.GetList;
 using School.Application.Features.Students.Commands.Create;
 using School.Application.Features.Students.Dtos.Get;
+using School.Application.Features.Students.Queries.GetList;
 using SchoolProjecte.Models;
 
 namespace SchoolProjecte.Controllers
 {
     public class StudentController : BaseController
     {
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            return View();
+            var getAllStudent = await Mediator.Send(new GetStudentListQuery());
+
+            return View(getAllStudent.Data);
         }
         [HttpGet]
         public async Task<IActionResult> AddStudent()
         {
             var getListDepartment = await Mediator.Send(new GetDepartmentListQuery());
 
-           
+
             var model = new StudentCreateViewModel
             {
-                Student = new GetStudentOutput(), 
-                getListDepartment = getListDepartment.Data.ToList()
+                Student = new GetStudentOutput(),
+                getListDepartment = getListDepartment.Data
             };
 
             return View(model);
         }
-      
+
         [HttpPost, ValidateAntiForgeryToken]
         public async Task<IActionResult> AddStudent(StudentCreateViewModel model)
         {
-            
+
             var createStudentCommand = new CreateStudentCommand()
             {
                 Age = model.Student.Age,
@@ -43,7 +46,7 @@ namespace SchoolProjecte.Controllers
             if (result.Success)
             {
                 NotifySuccess(result.Message);
-                return RedirectToAction("AddStudent", "Student");
+                return RedirectToAction("Index", "Student");
             }
             else
             {
