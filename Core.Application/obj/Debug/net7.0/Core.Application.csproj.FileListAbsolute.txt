@@ -10,3 +10,15 @@ E:\My_GitHub\SochoolProjecte\Core.Application\obj\Debug\net7.0\Core.Application.
 E:\My_GitHub\SochoolProjecte\Core.Application\obj\Debug\net7.0\refint\Core.Application.dll
 E:\My_GitHub\SochoolProjecte\Core.Application\obj\Debug\net7.0\Core.Application.pdb
 E:\My_GitHub\SochoolProjecte\Core.Application\obj\Debug\net7.0\ref\Core.Application.dll
+E:\My_GitHub\SchoolProjecteWithCleanArchitecture\Core.Application\bin\Debug\net7.0\Core.Application.deps.json
+E:\My_GitHub\SchoolProjecteWithCleanArchitecture\Core.Application\bin\Debug\net7.0\Core.Application.dll
+E:\My_GitHub\SchoolProjecteWithCleanArchitecture\Core.Application\bin\Debug\net7.0\Core.Application.pdb
+E:\My_GitHub\SchoolProjecteWithCleanArchitecture\Core.Application\obj\Debug\net7.0\Core.Application.csproj.AssemblyReference.cache
+E:\My_GitHub\SchoolProjecteWithCleanArchitecture\Core.Application\obj\Debug\net7.0\Core.Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\My_GitHub\SchoolProjecteWithCleanArchitecture\Core.Application\obj\Debug\net7.0\Core.Application.AssemblyInfoInputs.cache
+E:\My_GitHub\SchoolProjecteWithCleanArchitecture\Core.Application\obj\Debug\net7.0\Core.Application.AssemblyInfo.cs
+E:\My_GitHub\SchoolProjecteWithCleanArchitecture\Core.Application\obj\Debug\net7.0\Core.Application.csproj.CoreCompileInputs.cache
+E:\My_GitHub\SchoolProjecteWithCleanArchitecture\Core.Application\obj\Debug\net7.0\Core.Application.dll
+E:\My_GitHub\SchoolProjecteWithCleanArchitecture\Core.Application\obj\Debug\net7.0\refint\Core.Application.dll
+E:\My_GitHub\SchoolProjecteWithCleanArchitecture\Core.Application\obj\Debug\net7.0\Core.Application.pdb
+E:\My_GitHub\SchoolProjecteWithCleanArchitecture\Core.Application\obj\Debug\net7.0\ref\Core.Application.dll
