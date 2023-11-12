@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\My_GitHub\\SochoolProjecte\\School.Persistence\\School.Persistence.csproj": {}
+    "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\School.Persistence\\School.Persistence.csproj": {}
   },
   "projects": {
-    "E:\\My_GitHub\\SochoolProjecte\\Core.Application\\Core.Application.csproj": {
+    "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\Core.Application\\Core.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\My_GitHub\\SochoolProjecte\\Core.Application\\Core.Application.csproj",
+        "projectUniqueName": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\Core.Application\\Core.Application.csproj",
         "projectName": "Core.Application",
-        "projectPath": "E:\\My_GitHub\\SochoolProjecte\\Core.Application\\Core.Application.csproj",
+        "projectPath": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\Core.Application\\Core.Application.csproj",
         "packagesPath": "C:\\Users\\APS\\.nuget\\packages\\",
-        "outputPath": "E:\\My_GitHub\\SochoolProjecte\\Core.Application\\obj\\",
+        "outputPath": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\Core.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\APS\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -59,14 +59,14 @@
         }
       }
     },
-    "E:\\My_GitHub\\SochoolProjecte\\Core.Persistence\\Core.Persistence.csproj": {
+    "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\Core.Persistence\\Core.Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\My_GitHub\\SochoolProjecte\\Core.Persistence\\Core.Persistence.csproj",
+        "projectUniqueName": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\Core.Persistence\\Core.Persistence.csproj",
         "projectName": "Core.Persistence",
-        "projectPath": "E:\\My_GitHub\\SochoolProjecte\\Core.Persistence\\Core.Persistence.csproj",
+        "projectPath": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\Core.Persistence\\Core.Persistence.csproj",
         "packagesPath": "C:\\Users\\APS\\.nuget\\packages\\",
-        "outputPath": "E:\\My_GitHub\\SochoolProjecte\\Core.Persistence\\obj\\",
+        "outputPath": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\Core.Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\APS\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -83,8 +83,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "E:\\My_GitHub\\SochoolProjecte\\School.Domain\\School.Domain.csproj": {
-                "projectPath": "E:\\My_GitHub\\SochoolProjecte\\School.Domain\\School.Domain.csproj"
+              "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\School.Domain\\School.Domain.csproj": {
+                "projectPath": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\School.Domain\\School.Domain.csproj"
               }
             }
           }
@@ -124,14 +124,14 @@
         }
       }
     },
-    "E:\\My_GitHub\\SochoolProjecte\\School.Application\\School.Application.csproj": {
+    "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\School.Application\\School.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\My_GitHub\\SochoolProjecte\\School.Application\\School.Application.csproj",
+        "projectUniqueName": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\School.Application\\School.Application.csproj",
         "projectName": "School.Application",
-        "projectPath": "E:\\My_GitHub\\SochoolProjecte\\School.Application\\School.Application.csproj",
+        "projectPath": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\School.Application\\School.Application.csproj",
         "packagesPath": "C:\\Users\\APS\\.nuget\\packages\\",
-        "outputPath": "E:\\My_GitHub\\SochoolProjecte\\School.Application\\obj\\",
+        "outputPath": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\School.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\APS\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -148,14 +148,14 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "E:\\My_GitHub\\SochoolProjecte\\Core.Application\\Core.Application.csproj": {
-                "projectPath": "E:\\My_GitHub\\SochoolProjecte\\Core.Application\\Core.Application.csproj"
+              "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\Core.Application\\Core.Application.csproj": {
+                "projectPath": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\Core.Application\\Core.Application.csproj"
               },
-              "E:\\My_GitHub\\SochoolProjecte\\Core.Persistence\\Core.Persistence.csproj": {
-                "projectPath": "E:\\My_GitHub\\SochoolProjecte\\Core.Persistence\\Core.Persistence.csproj"
+              "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\Core.Persistence\\Core.Persistence.csproj": {
+                "projectPath": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\Core.Persistence\\Core.Persistence.csproj"
               },
-              "E:\\My_GitHub\\SochoolProjecte\\School.Domain\\School.Domain.csproj": {
-                "projectPath": "E:\\My_GitHub\\SochoolProjecte\\School.Domain\\School.Domain.csproj"
+              "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\School.Domain\\School.Domain.csproj": {
+                "projectPath": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\School.Domain\\School.Domain.csproj"
               }
             }
           }
@@ -227,14 +227,14 @@
         }
       }
     },
-    "E:\\My_GitHub\\SochoolProjecte\\School.Domain\\School.Domain.csproj": {
+    "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\School.Domain\\School.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\My_GitHub\\SochoolProjecte\\School.Domain\\School.Domain.csproj",
+        "projectUniqueName": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\School.Domain\\School.Domain.csproj",
         "projectName": "School.Domain",
-        "projectPath": "E:\\My_GitHub\\SochoolProjecte\\School.Domain\\School.Domain.csproj",
+        "projectPath": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\School.Domain\\School.Domain.csproj",
         "packagesPath": "C:\\Users\\APS\\.nuget\\packages\\",
-        "outputPath": "E:\\My_GitHub\\SochoolProjecte\\School.Domain\\obj\\",
+        "outputPath": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\School.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\APS\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -282,14 +282,14 @@
         }
       }
     },
-    "E:\\My_GitHub\\SochoolProjecte\\School.Persistence\\School.Persistence.csproj": {
+    "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\School.Persistence\\School.Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\My_GitHub\\SochoolProjecte\\School.Persistence\\School.Persistence.csproj",
+        "projectUniqueName": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\School.Persistence\\School.Persistence.csproj",
         "projectName": "School.Persistence",
-        "projectPath": "E:\\My_GitHub\\SochoolProjecte\\School.Persistence\\School.Persistence.csproj",
+        "projectPath": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\School.Persistence\\School.Persistence.csproj",
         "packagesPath": "C:\\Users\\APS\\.nuget\\packages\\",
-        "outputPath": "E:\\My_GitHub\\SochoolProjecte\\School.Persistence\\obj\\",
+        "outputPath": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\School.Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\APS\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -306,11 +306,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "E:\\My_GitHub\\SochoolProjecte\\Core.Persistence\\Core.Persistence.csproj": {
-                "projectPath": "E:\\My_GitHub\\SochoolProjecte\\Core.Persistence\\Core.Persistence.csproj"
+              "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\Core.Persistence\\Core.Persistence.csproj": {
+                "projectPath": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\Core.Persistence\\Core.Persistence.csproj"
               },
-              "E:\\My_GitHub\\SochoolProjecte\\School.Application\\School.Application.csproj": {
-                "projectPath": "E:\\My_GitHub\\SochoolProjecte\\School.Application\\School.Application.csproj"
+              "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\School.Application\\School.Application.csproj": {
+                "projectPath": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\School.Application\\School.Application.csproj"
               }
             }
           }

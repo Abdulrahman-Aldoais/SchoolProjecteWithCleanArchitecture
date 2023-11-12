@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PyZouRh/FkxsSj6gXIIUnDW4KYQ27ZeuhrkVYtFMwYUoJkTzTm0n/xZxbOmu8bzfxQd4b6agPk/Yzcro625XSw==",
+  "dgSpecHash": "lL67nl5wMHpHuZSck93ZzpB79ENNFMJtzLO79IUIUGbQZvkLuGRo6pFjkm+TsgWB8tKRTo4IDaOR8czS8jAy0w==",
   "success": true,
-  "projectFilePath": "E:\\My_GitHub\\SochoolProjecte\\School.Persistence\\School.Persistence.csproj",
+  "projectFilePath": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\School.Persistence\\School.Persistence.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\APS\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\APS\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\My_GitHub\\SochoolProjecte\\Core.Application\\Core.Application.csproj": {}
+    "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\Core.Application\\Core.Application.csproj": {}
   },
   "projects": {
-    "E:\\My_GitHub\\SochoolProjecte\\Core.Application\\Core.Application.csproj": {
+    "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\Core.Application\\Core.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\My_GitHub\\SochoolProjecte\\Core.Application\\Core.Application.csproj",
+        "projectUniqueName": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\Core.Application\\Core.Application.csproj",
         "projectName": "Core.Application",
-        "projectPath": "E:\\My_GitHub\\SochoolProjecte\\Core.Application\\Core.Application.csproj",
+        "projectPath": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\Core.Application\\Core.Application.csproj",
         "packagesPath": "C:\\Users\\APS\\.nuget\\packages\\",
-        "outputPath": "E:\\My_GitHub\\SochoolProjecte\\Core.Application\\obj\\",
+        "outputPath": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\Core.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\APS\\AppData\\Roaming\\NuGet\\NuGet.Config",

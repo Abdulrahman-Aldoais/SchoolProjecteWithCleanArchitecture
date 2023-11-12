@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\My_GitHub\\SochoolProjecte\\School.Domain\\School.Domain.csproj",
+      "projectUniqueName": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\School.Domain\\School.Domain.csproj",
       "projectName": "School.Domain",
-      "projectPath": "E:\\My_GitHub\\SochoolProjecte\\School.Domain\\School.Domain.csproj",
+      "projectPath": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\School.Domain\\School.Domain.csproj",
       "packagesPath": "C:\\Users\\APS\\.nuget\\packages\\",
-      "outputPath": "E:\\My_GitHub\\SochoolProjecte\\School.Domain\\obj\\",
+      "outputPath": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\School.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\APS\\AppData\\Roaming\\NuGet\\NuGet.Config",

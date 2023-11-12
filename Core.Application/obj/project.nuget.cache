@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2cJtXs3lZX+H788Cb6BV7LaT3zeVFp8GB/x68S4Vqa/+D8dYNP+z2WhvuNDka1Ibn7vY3yHp2b0/I9p6ivzRSA==",
+  "dgSpecHash": "xTqz8db0TW+gQx+Zi4n/EQcLeJeero1N7c197pgC5zIGz1wWDfHwclmfahzAsuoRiJMpDz/HEbBdQlaDjm8OHQ==",
   "success": true,
-  "projectFilePath": "E:\\My_GitHub\\SochoolProjecte\\Core.Application\\Core.Application.csproj",
+  "projectFilePath": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\Core.Application\\Core.Application.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
