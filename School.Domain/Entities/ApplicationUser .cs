@@ -3,7 +3,7 @@ using SchoolProject.Data.Entities;
 
 namespace School.Domain.Entities
 {
-    public class User : IdentityUser
+    public class ApplicationUser : IdentityUser<int>
     {
 
         public string FullName { get; set; }
@@ -13,7 +13,7 @@ namespace School.Domain.Entities
 
         public ICollection<UserRefreshToken> UserRefreshTokens { get; set; }
 
-        public User()
+        public ApplicationUser()
         {
             UserRefreshTokens = new HashSet<UserRefreshToken>();
         }

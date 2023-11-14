@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using School.Application.Features.ApplicationUser.Command.Create;
-using School.Application.Features.ApplicationUser.Dtos.Get;
+using School.Application.Features.User.Command.Create;
+using School.Application.Features.User.Dtos.Get;
 
 namespace SchoolProjecte.Controllers
 {

@@ -3,14 +3,13 @@ using System.Linq.Expressions;
 
 namespace Core.Repositories.Interface
 {
-    public interface IReadRepository<T> where T : BaseModel
+    public interface IReadRepository<TEntity> where TEntity : BaseModel
     {
-        Task<bool> AnyAsync(Expression<Func<T, bool>> predicate = null);
-        T Get(Expression<Func<T, bool>> predicate = null);
-        Task<T> GetAsync(Expression<Func<T, bool>> predicate = null);
-        IQueryable<T> GetAllFiles(Expression<Func<T, bool>> predicate = null, params Expression<Func<T, object>>[] includeProperties);
-        IQueryable<T> GetAll(Expression<Func<T, bool>> predicate = null);
-        Task<IEnumerable<T>> GetListAsync(Expression<Func<T, bool>> predicate = null);
+        Task<bool> AnyAsync(Expression<Func<TEntity, bool>> predicate = null);
+        TEntity Get(Expression<Func<TEntity, bool>> predicate = null);
+        Task<TEntity> GetAsync(Expression<Func<TEntity, bool>> predicate = null);
+        IQueryable<TEntity> GetAll(Expression<Func<TEntity, bool>> predicate = null);
+        Task<IEnumerable<TEntity>> GetListAsync(Expression<Func<TEntity, bool>> predicate = null);
         Task<int> CountAsync();
 
     }

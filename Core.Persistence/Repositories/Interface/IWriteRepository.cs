@@ -2,14 +2,14 @@
 
 namespace Core.Persistence.Repositories.Interface
 {
-    public interface IWriteRepository<T> where T : BaseModel
+    public interface IWriteRepository<TEntity> where TEntity : BaseModel
     {
-        T Add(T entity);
-        Task<T> AddAsync(T entity);
-        T Update(T entity);
-        Task<T> UpdateAsync(T entity);
-        T Delete(T entity);
-        Task<T> DeleteAsync(T entity);
+        TEntity Add(TEntity entity);
+        Task<TEntity> AddAsync(TEntity entity);
+        TEntity Update(TEntity entity);
+        Task<TEntity> UpdateAsync(TEntity entity);
+        TEntity Delete(TEntity entity);
+        Task<TEntity> DeleteAsync(TEntity entity);
 
 
     }

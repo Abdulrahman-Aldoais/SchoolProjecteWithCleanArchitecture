@@ -6,7 +6,7 @@ using School.Presistence.Context;
 namespace School.Persistence.Repositories.UserRepository
 {
 
-    public class UserReadRepository : ReadRepository<User, SchoolDbContext>, IUserReadRepository
+    public class UserReadRepository : ReadForUserRepository<ApplicationUser, SchoolDbContext>, IUserReadRepository
     {
         public UserReadRepository(SchoolDbContext context) : base(context)
         {

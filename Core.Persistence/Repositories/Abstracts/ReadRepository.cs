@@ -38,23 +38,6 @@ namespace Core.Persistence.Repositories.Abstracts
             else
                 return Context.Set<TEntity>().Where(predicate);
         }
-
-        public IQueryable<TEntity> GetAllFiles(Expression<Func<TEntity, bool>> predicate = null, params Expression<Func<TEntity, object>>[] includeProperties)
-        {
-            IQueryable<TEntity> query = Context.Set<TEntity>();
-
-            if (predicate != null)
-            {
-                query = query.Where(predicate);
-            }
-
-            foreach (Expression<Func<TEntity, object>> includeProperty in includeProperties)
-            {
-                query = query.Include(includeProperty);
-            }
-
-            return query.AsNoTracking();
-        }
         public async Task<TEntity> GetAsync(Expression<Func<TEntity, bool>> predicate = null)
         {
             return await Context.Set<TEntity>().FirstOrDefaultAsync(predicate);

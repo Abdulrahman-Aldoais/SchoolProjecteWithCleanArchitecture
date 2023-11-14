@@ -1288,7 +1288,6 @@
       },
       "Core.Persistence/1.0.0": {
         "dependencies": {
-          "Core.Application": "1.0.0",
           "Microsoft.EntityFrameworkCore": "7.0.13",
           "School.Domain": "1.0.0"
         },

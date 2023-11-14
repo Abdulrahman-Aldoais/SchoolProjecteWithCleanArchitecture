@@ -2,7 +2,7 @@
 using School.Application.Repositories.UserRepository;
 using School.Domain.Resources;
 
-namespace School.Application.Features.ApplicationUser.Command.Create
+namespace School.Application.Features.User.Command.Create
 {
     public class CreateUserCommandHandlerValidation : AbstractValidator<CreateUserCommand>
     {
@@ -27,7 +27,7 @@ namespace School.Application.Features.ApplicationUser.Command.Create
         }
         private async Task<bool> NameCanNotBeDuplicatedWhenInserted(CreateUserCommand command, CancellationToken cancellationToken)
         {
-            var existingNameUser = await _userReadRepository.GetAsync(x => x.Name == command.FullName);
+            var existingNameUser = await _userReadRepository.GetAsync(x => x.FullName == command.FullName);
             return existingNameUser == null;
         }
     }

@@ -9,19 +9,18 @@ namespace School.Application.Service.UserService
     {
         private readonly IUserWriteRepository _userWriteRepository;
 
-        private readonly UserManager<User> _userManager;
+        private readonly UserManager<ApplicationUser> _userManager;
         private readonly IHttpContextAccessor _httpContextAccessor;
         public UserService(IUserWriteRepository userWriteRepository,
             IHttpContextAccessor httpContextAccessor,
-            UserManager<User> userManager)
+            UserManager<ApplicationUser> userManager)
         {
             _userManager = userManager;
             _httpContextAccessor = httpContextAccessor;
             _userWriteRepository = userWriteRepository;
         }
-        public async Task<string> AddUserAsync(User user, string password)
+        public async Task<string> AddUserAsync(ApplicationUser user, string password)
         {
-
             try
             {
                 //if Email is Exist

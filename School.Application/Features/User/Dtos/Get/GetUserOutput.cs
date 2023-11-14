@@ -1,4 +1,4 @@
-﻿namespace School.Application.Features.ApplicationUser.Dtos.Get
+﻿namespace School.Application.Features.User.Dtos.Get
 {
     public class GetUserOutput
     {

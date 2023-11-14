@@ -1,4 +1,4 @@
-﻿namespace School.Application.Features.ApplicationUser.Constants
+﻿namespace School.Application.Features.User.Constants
 {
     public class UserMessages
     {

@@ -1,8 +1,8 @@
 ﻿using Core.Application.Responses;
 using MediatR;
-using School.Application.Features.ApplicationUser.Dtos.Get;
+using School.Application.Features.User.Dtos.Get;
 
-namespace School.Application.Features.ApplicationUser.Command.Create
+namespace School.Application.Features.User.Command.Create
 {
     public class CreateUserCommand : IRequest<BaseCommandResponse<GetUserOutput>>
     {

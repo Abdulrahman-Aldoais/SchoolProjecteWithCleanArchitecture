@@ -3,7 +3,7 @@ using School.Domain.Entities;
 
 namespace School.Application.Repositories.UserRepository
 {
-    public interface IUserReadRepository : IReadRepository<User>
+    public interface IUserReadRepository : IReadForUserRepository<ApplicationUser>
     {
     }
 }

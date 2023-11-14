@@ -5,6 +5,7 @@ using MediatR;
 using Microsoft.Extensions.DependencyInjection;
 using School.Application.Service.DepartmentService;
 using School.Application.Service.StudentServices;
+using School.Application.Service.UserService;
 using System.Reflection;
 
 namespace School.Application
@@ -21,6 +22,7 @@ namespace School.Application
             // Services
             services.AddScoped<IStudentService, StudentService>();
             services.AddScoped<IDepartmentService, DepartmentService>();
+            services.AddScoped<IUserService, UserService>();
 
             return services;
         }

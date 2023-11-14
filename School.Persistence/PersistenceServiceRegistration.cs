@@ -4,8 +4,10 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using School.Application.Repositories.DepartmentRepository;
 using School.Application.Repositories.StudentRepository;
+using School.Application.Repositories.UserRepository;
 using School.Domain.Entities;
 using School.Persistence.Repositories.DepartmentRepository;
+using School.Persistence.Repositories.UserRepository;
 using School.Presistence.Context;
 using School.Presistence.Repositories.StudentRepository;
 using SchoolProject.Data.Entities.Identity;
@@ -23,7 +25,7 @@ namespace School.Presistence
                     opt.UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking);
                 });
 
-            services.AddIdentity<User, Role>(option =>
+            services.AddIdentity<ApplicationUser, Role>(option =>
             {
                 // Password settings.
                 option.Password.RequireDigit = true;
@@ -53,7 +55,8 @@ namespace School.Presistence
             services.AddScoped<IStudentWriteRepository, StudentWriteRepository>();
             services.AddScoped<IDepartmentReadRepository, DepartmentReadRepository>();
             services.AddScoped<IDepartmentWriteRepository, DepartmentWriteRepository>();
-            //services.AddScoped<IUserReadRepository, UserReadRepository>();
+            services.AddScoped<IUserReadRepository, UserReadRepository>();
+            services.AddScoped<IUserWriteRepository, UserWriteRepository>();
 
 
 

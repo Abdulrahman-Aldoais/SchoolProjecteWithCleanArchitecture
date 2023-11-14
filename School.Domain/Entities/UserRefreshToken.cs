@@ -17,7 +17,7 @@ namespace SchoolProject.Data.Entities
         public DateTime AddedTime { get; set; }
         public DateTime ExpiryDate { get; set; }
         [ForeignKey(nameof(UserId))]
-        [InverseProperty(nameof(User.UserRefreshTokens))]
-        public virtual User? user { get; set; }
+        [InverseProperty(nameof(ApplicationUser.UserRefreshTokens))]
+        public virtual ApplicationUser? user { get; set; }
     }
 }

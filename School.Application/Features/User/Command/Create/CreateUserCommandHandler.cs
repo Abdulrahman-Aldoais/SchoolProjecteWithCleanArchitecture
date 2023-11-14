@@ -1,13 +1,13 @@
 ﻿using AutoMapper;
 using Core.Application.Responses;
 using MediatR;
-using School.Application.Features.ApplicationUser.Dtos.Get;
+using School.Application.Features.User.Dtos.Get;
 using School.Application.Repositories.UserRepository;
 using School.Application.Service.UserService;
 using School.Domain.Entities;
 using School.Domain.Resources;
 
-namespace School.Application.Features.ApplicationUser.Command.Create
+namespace School.Application.Features.User.Command.Create
 {
     public class CreateUserCommandHandler : IRequestHandler<CreateUserCommand, BaseCommandResponse<GetUserOutput>>
     {
@@ -57,7 +57,7 @@ namespace School.Application.Features.ApplicationUser.Command.Create
         {
             var response = new BaseCommandResponse<GetUserOutput>();
 
-            var identityUserMapp = _mapper.Map<User>(request);
+            var identityUserMapp = _mapper.Map<ApplicationUser>(request);
             var createResult = await _userService.AddUserAsync(identityUserMapp, request.Password);
             var resultMapp = _mapper.Map<GetUserOutput>(createResult);
             switch (response.Message)
