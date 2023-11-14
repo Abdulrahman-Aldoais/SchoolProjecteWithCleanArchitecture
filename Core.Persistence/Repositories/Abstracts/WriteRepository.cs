@@ -5,6 +5,7 @@ using School.Domain.Entities;
 namespace Core.Persistence.Repositories.Abstracts
 {
     public class WriteRepository<TEntity, TContext> : IWriteRepository<TEntity>
+
         where TEntity : BaseModel
         where TContext : DbContext
     {

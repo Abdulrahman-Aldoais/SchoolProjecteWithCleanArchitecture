@@ -10,14 +10,14 @@ E:\My_GitHub\SochoolProjecte\School.Domain\obj\Debug\net7.0\School.Domain.dll
 E:\My_GitHub\SochoolProjecte\School.Domain\obj\Debug\net7.0\refint\School.Domain.dll
 E:\My_GitHub\SochoolProjecte\School.Domain\obj\Debug\net7.0\School.Domain.pdb
 E:\My_GitHub\SochoolProjecte\School.Domain\obj\Debug\net7.0\ref\School.Domain.dll
-E:\My_GitHub\SchoolProjecteWithCleanArchitecture\School.Domain\bin\Debug\net7.0\School.Domain.deps.json
-E:\My_GitHub\SchoolProjecteWithCleanArchitecture\School.Domain\bin\Debug\net7.0\School.Domain.dll
-E:\My_GitHub\SchoolProjecteWithCleanArchitecture\School.Domain\bin\Debug\net7.0\School.Domain.pdb
 E:\My_GitHub\SchoolProjecteWithCleanArchitecture\School.Domain\obj\Debug\net7.0\School.Domain.csproj.AssemblyReference.cache
 E:\My_GitHub\SchoolProjecteWithCleanArchitecture\School.Domain\obj\Debug\net7.0\School.Domain.GeneratedMSBuildEditorConfig.editorconfig
 E:\My_GitHub\SchoolProjecteWithCleanArchitecture\School.Domain\obj\Debug\net7.0\School.Domain.AssemblyInfoInputs.cache
 E:\My_GitHub\SchoolProjecteWithCleanArchitecture\School.Domain\obj\Debug\net7.0\School.Domain.AssemblyInfo.cs
 E:\My_GitHub\SchoolProjecteWithCleanArchitecture\School.Domain\obj\Debug\net7.0\School.Domain.csproj.CoreCompileInputs.cache
+E:\My_GitHub\SchoolProjecteWithCleanArchitecture\School.Domain\bin\Debug\net7.0\School.Domain.deps.json
+E:\My_GitHub\SchoolProjecteWithCleanArchitecture\School.Domain\bin\Debug\net7.0\School.Domain.dll
+E:\My_GitHub\SchoolProjecteWithCleanArchitecture\School.Domain\bin\Debug\net7.0\School.Domain.pdb
 E:\My_GitHub\SchoolProjecteWithCleanArchitecture\School.Domain\obj\Debug\net7.0\School.Domain.dll
 E:\My_GitHub\SchoolProjecteWithCleanArchitecture\School.Domain\obj\Debug\net7.0\refint\School.Domain.dll
 E:\My_GitHub\SchoolProjecteWithCleanArchitecture\School.Domain\obj\Debug\net7.0\School.Domain.pdb

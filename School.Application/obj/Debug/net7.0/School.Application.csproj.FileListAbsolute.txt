@@ -17,6 +17,11 @@ E:\My_GitHub\SochoolProjecte\School.Application\obj\Debug\net7.0\School.Applicat
 E:\My_GitHub\SochoolProjecte\School.Application\obj\Debug\net7.0\refint\School.Application.dll
 E:\My_GitHub\SochoolProjecte\School.Application\obj\Debug\net7.0\School.Application.pdb
 E:\My_GitHub\SochoolProjecte\School.Application\obj\Debug\net7.0\ref\School.Application.dll
+E:\My_GitHub\SchoolProjecteWithCleanArchitecture\School.Application\obj\Debug\net7.0\School.Application.csproj.AssemblyReference.cache
+E:\My_GitHub\SchoolProjecteWithCleanArchitecture\School.Application\obj\Debug\net7.0\School.Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\My_GitHub\SchoolProjecteWithCleanArchitecture\School.Application\obj\Debug\net7.0\School.Application.AssemblyInfoInputs.cache
+E:\My_GitHub\SchoolProjecteWithCleanArchitecture\School.Application\obj\Debug\net7.0\School.Application.AssemblyInfo.cs
+E:\My_GitHub\SchoolProjecteWithCleanArchitecture\School.Application\obj\Debug\net7.0\School.Application.csproj.CoreCompileInputs.cache
 E:\My_GitHub\SchoolProjecteWithCleanArchitecture\School.Application\bin\Debug\net7.0\School.Application.deps.json
 E:\My_GitHub\SchoolProjecteWithCleanArchitecture\School.Application\bin\Debug\net7.0\School.Application.dll
 E:\My_GitHub\SchoolProjecteWithCleanArchitecture\School.Application\bin\Debug\net7.0\School.Application.pdb
@@ -26,11 +31,6 @@ E:\My_GitHub\SchoolProjecteWithCleanArchitecture\School.Application\bin\Debug\ne
 E:\My_GitHub\SchoolProjecteWithCleanArchitecture\School.Application\bin\Debug\net7.0\Core.Application.pdb
 E:\My_GitHub\SchoolProjecteWithCleanArchitecture\School.Application\bin\Debug\net7.0\Core.Persistence.pdb
 E:\My_GitHub\SchoolProjecteWithCleanArchitecture\School.Application\bin\Debug\net7.0\School.Domain.pdb
-E:\My_GitHub\SchoolProjecteWithCleanArchitecture\School.Application\obj\Debug\net7.0\School.Application.csproj.AssemblyReference.cache
-E:\My_GitHub\SchoolProjecteWithCleanArchitecture\School.Application\obj\Debug\net7.0\School.Application.GeneratedMSBuildEditorConfig.editorconfig
-E:\My_GitHub\SchoolProjecteWithCleanArchitecture\School.Application\obj\Debug\net7.0\School.Application.AssemblyInfoInputs.cache
-E:\My_GitHub\SchoolProjecteWithCleanArchitecture\School.Application\obj\Debug\net7.0\School.Application.AssemblyInfo.cs
-E:\My_GitHub\SchoolProjecteWithCleanArchitecture\School.Application\obj\Debug\net7.0\School.Application.csproj.CoreCompileInputs.cache
 E:\My_GitHub\SchoolProjecteWithCleanArchitecture\School.Application\obj\Debug\net7.0\School.Application.csproj.CopyComplete
 E:\My_GitHub\SchoolProjecteWithCleanArchitecture\School.Application\obj\Debug\net7.0\School.Application.dll
 E:\My_GitHub\SchoolProjecteWithCleanArchitecture\School.Application\obj\Debug\net7.0\refint\School.Application.dll
