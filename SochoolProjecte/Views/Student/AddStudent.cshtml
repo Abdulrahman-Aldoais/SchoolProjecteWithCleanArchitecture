@@ -1,4 +1,5 @@
-﻿@model StudentCreateViewModel
+﻿@using System.Security.Claims;
+@model StudentCreateViewModel
 @*
     For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 *@
@@ -22,7 +23,6 @@
         </div>
         <div>
             <label for="departmentName">العمر:</label>
-            @*<input type="number" asp-for="Student.Age" required>*@
             <input type="number" asp-for="Student.Age" required>
             <span class="text-danger" asp-validation-for="Student.Age"></span>
         </div>

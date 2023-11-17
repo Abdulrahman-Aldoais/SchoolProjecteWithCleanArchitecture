@@ -1,5 +1,4 @@
-﻿using School.Domain.Enum;
-using System.Globalization;
+﻿using System.Globalization;
 
 namespace School.Domain.Entities
 {
@@ -8,17 +7,20 @@ namespace School.Domain.Entities
         public BaseModel()
         {
             string formattedDate = "2023-11-09 15:30"; // Replace with your desired formatted date and time
-            this.CreateTime = DateTime.ParseExact(formattedDate, "yyyy-MM-dd HH:mm", CultureInfo.InvariantCulture);
+            this.DateCreated = DateTime.ParseExact(formattedDate, "yyyy-MM-dd HH:mm", CultureInfo.InvariantCulture);
+            this.Id = new Guid();
         }
 
-        public int Id { get; set; }
-        public string Name { get; set; }
-        public DateTime CreateTime { get; set; }
-        private Status _status = Status.Modified;
-        public Status Status
+        public BaseModel(Guid id) : this()
         {
-            get => _status;
-            set => _status = value;
+            Id = id;
         }
+
+        public Guid Id { get; set; }
+        public string Name { get; set; }
+        public DateTime? DateCreated { get; set; }
+        public string? CreatedBy { get; set; }
+        public DateTime? DateModified { get; set; }
+        public string? ModifiedBy { get; set; }
     }
 }

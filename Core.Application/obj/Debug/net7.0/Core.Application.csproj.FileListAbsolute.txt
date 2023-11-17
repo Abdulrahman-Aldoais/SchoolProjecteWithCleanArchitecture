@@ -22,3 +22,6 @@ E:\My_GitHub\SchoolProjecteWithCleanArchitecture\Core.Application\obj\Debug\net7
 E:\My_GitHub\SchoolProjecteWithCleanArchitecture\Core.Application\obj\Debug\net7.0\refint\Core.Application.dll
 E:\My_GitHub\SchoolProjecteWithCleanArchitecture\Core.Application\obj\Debug\net7.0\Core.Application.pdb
 E:\My_GitHub\SchoolProjecteWithCleanArchitecture\Core.Application\obj\Debug\net7.0\ref\Core.Application.dll
+E:\My_GitHub\SchoolProjecteWithCleanArchitecture\Core.Application\bin\Debug\net7.0\School.Domain.dll
+E:\My_GitHub\SchoolProjecteWithCleanArchitecture\Core.Application\bin\Debug\net7.0\School.Domain.pdb
+E:\My_GitHub\SchoolProjecteWithCleanArchitecture\Core.Application\obj\Debug\net7.0\Core.Application.csproj.CopyComplete

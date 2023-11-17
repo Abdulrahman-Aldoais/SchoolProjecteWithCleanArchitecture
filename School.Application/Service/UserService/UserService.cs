@@ -7,6 +7,8 @@ namespace School.Application.Service.UserService
 {
     public class UserService : IUserService
     {
+
+        public string UserId { get; }
         private readonly IUserWriteRepository _userWriteRepository;
 
         private readonly UserManager<ApplicationUser> _userManager;
@@ -41,15 +43,8 @@ namespace School.Application.Service.UserService
                 await _userManager.AddToRoleAsync(user, "User");
 
                 //Send Confirm Email
-                //var code = await _userManager.GenerateEmailConfirmationTokenAsync(user);
-                //var resquestAccessor = _httpContextAccessor.HttpContext.Request;
-                //var returnUrl = resquestAccessor.Scheme + "://" + resquestAccessor.Host + _urlHelper.Action("ConfirmEmail", "Authentication", new { userId = user.Id, code = code });
-                //var message = $"To Confirm Email Click Link: <a href='{returnUrl}'></a>";
-                ////$"/Api/V1/Authentication/ConfirmEmail?userId={user.Id}&code={code}";
-                ////message or body
-                //await _emailsService.SendEmail(user.Email, message, "ConFirm Email");
-
-                //await trans.CommitAsync();
+                var code = await _userManager.GenerateEmailConfirmationTokenAsync(user);
+                var resquestAccessor = _httpContextAccessor.HttpContext.Request;
                 return "Success";
             }
             catch (Exception ex)

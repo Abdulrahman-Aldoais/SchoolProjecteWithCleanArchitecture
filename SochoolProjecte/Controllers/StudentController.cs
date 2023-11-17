@@ -16,6 +16,7 @@ namespace SchoolProjecte.Controllers
             return View(getAllStudent.Data);
         }
         [HttpGet]
+
         public async Task<IActionResult> AddStudent()
         {
             var getListDepartment = await Mediator.Send(new GetDepartmentListQuery());
@@ -31,9 +32,9 @@ namespace SchoolProjecte.Controllers
         }
 
         [HttpPost, ValidateAntiForgeryToken]
+        [Route("student/addStudent/")]
         public async Task<IActionResult> AddStudent(StudentCreateViewModel model)
         {
-
             var createStudentCommand = new CreateStudentCommand()
             {
                 Age = model.Student.Age,

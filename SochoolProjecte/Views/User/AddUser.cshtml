@@ -1,0 +1,56 @@
+﻿
+@model School.Application.Features.User.Dtos.Get.GetUserOutput
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+
+    <form asp-action="AddUser" asp-controller="User" method="POST">
+        @Html.AntiForgeryToken()
+        <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
+        <div>
+            <label for="departmentName">الاسم:</label>
+            <input type="text" asp-for="FullName" required>
+            <span class="text-danger" asp-validation-for="FullName"></span>
+
+        </div>
+        <div>
+            <label for="Address">العنوان:</label>
+            <input type="text" asp-for="Address" required>
+            <span class="text-danger" asp-validation-for="Address"></span>
+        </div>
+        <div>
+            <label for="Email">البريد:</label>
+            <input type="text" asp-for="Email" required>
+            <span class="text-danger" asp-validation-for="Email"></span>
+        </div>
+        <div>
+            <label for="Email">:اسم المستخدم</label>
+            <input type="text" asp-for="UserName" required>
+            <span class="text-danger" asp-validation-for="UserName"></span>
+        </div>
+        <div>
+            <label for="Email">:المهمة </label>
+            <input type="text" asp-for="Task" required>
+            <span class="text-danger" asp-validation-for="Task"></span>
+        </div>
+        <div>
+            <label for="Password">كلمة المرور:</label>
+            <input type="text" asp-for="Password" required>
+            <span class="text-danger" asp-validation-for="Password"></span>
+        </div>
+        <div>
+            <label for="Country">الدولة:</label>
+            <input type="text" asp-for="Country" required>
+            <span class="text-danger" asp-validation-for="Country"></span>
+        </div>
+        <div>
+            <input type="submit" value="Add Department">
+        </div>
+    </form>
+
+</body>
+</html>

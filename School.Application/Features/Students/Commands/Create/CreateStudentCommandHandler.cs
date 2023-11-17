@@ -1,10 +1,12 @@
 ﻿using AutoMapper;
 using Core.Application.Responses;
 using MediatR;
+using Microsoft.AspNetCore.Http;
 using School.Application.Features.Departments;
 using School.Application.Features.Students.Dtos.Get;
 using School.Application.Repositories.StudentRepository;
 using School.Domain.Entities;
+using System.Security.Claims;
 
 namespace School.Application.Features.Students.Commands.Create
 {
@@ -13,21 +15,25 @@ namespace School.Application.Features.Students.Commands.Create
         private readonly IMapper _mapper;
         private readonly IStudentReadRepository _studentReadRepository;
         private readonly IStudentWriteRepository _studentWriteRepository;
-
+        private readonly IHttpContextAccessor _contextAccessor;
         public CreateStudentCommandHandler(
 
             IMapper mapper,
             IStudentReadRepository studentReadRepository,
-            IStudentWriteRepository studentWriteRepository
+            IStudentWriteRepository studentWriteRepository,
+            IHttpContextAccessor contextAccessor
             )
         {
             _mapper = mapper;
             _studentReadRepository = studentReadRepository;
             _studentWriteRepository = studentWriteRepository;
+            _contextAccessor = contextAccessor;
         }
+        public string UserId { get => _contextAccessor.HttpContext?.User?.FindFirstValue("uid"); }
 
         public async Task<BaseCommandResponse<GetStudentOutput>> Handle(CreateStudentCommand request, CancellationToken cancellationToken)
         {
+
             var response = new BaseCommandResponse<GetStudentOutput>();
             var validator = new CreateStudentCommandHandlerValidatior(_studentReadRepository);
             var validatorResult = await validator.ValidateAsync(request, cancellationToken);
@@ -43,6 +49,7 @@ namespace School.Application.Features.Students.Commands.Create
             {
 
                 var studentMapp = _mapper.Map<Student>(request);
+                studentMapp.CreatedBy = UserId;
                 var result = await _studentWriteRepository.AddAsync(studentMapp);
                 var resultMapp = _mapper.Map<GetStudentOutput>(result);
 

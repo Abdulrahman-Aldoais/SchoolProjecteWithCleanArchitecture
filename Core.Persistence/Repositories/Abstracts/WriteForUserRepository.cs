@@ -1,79 +1,86 @@
 ﻿using Core.Persistence.Repositories.Interface;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using School.Domain.Entities;
+using System.Security.Claims;
 
 namespace Core.Persistence.Repositories.Abstracts
 {
     public class WriteForUserRepository<TEntity, TContext> : IWriteForUserRepository<TEntity>
 
-        where TEntity : class
+        where TEntity : BaseModel
 
         where TContext : DbContext
     {
         protected TContext Context;
-        public WriteForUserRepository(TContext context)
+
+        private readonly UserManager<ApplicationUser> _userManager;
+        private readonly IHttpContextAccessor _contextAccessor;
+
+        public string UserId { get => _contextAccessor.HttpContext?.User?.FindFirstValue("uid"); }
+
+        public WriteForUserRepository(TContext context, IHttpContextAccessor httpContextAccessor, UserManager<ApplicationUser> userManager)
         {
+            _contextAccessor = httpContextAccessor;
+            _userManager = userManager;
             Context = context;
         }
 
-
         public TEntity Add(TEntity entity)
         {
-            Context.Entry(entity).State = EntityState.Added;
+            var entry = Context.Entry(entity);
+            Context.Set<TEntity>().Add(entity);
+            entry.Property(e => e.CreatedBy).CurrentValue = UserId;
+            if (entry.State == EntityState.Added)
+            {
+                entry.Entity.DateCreated = DateTime.Now;
+                entry.Entity.CreatedBy = UserId;
+            }
             Context.SaveChanges();
             return entity;
         }
-
-
-        //public async Task<TEntity> AddAsync(TEntity entity)
+        //public TEntity Add(TEntity entity)
         //{
-
-        //    try
-        //    {
-        //        // Try to save changes to the database
-        //        Context.Entry(entity).State = EntityState.Added;
-        //        await Context.SaveChangesAsync();
-        //    }
-        //    catch (DbUpdateConcurrencyException ex)
-        //    {
-        //        // Get the entity that caused the concurrency exception
-        //        var entry = ex.Entries.Single();
-        //        // Reload the entity from the database
-        //        await entry.ReloadAsync();
-        //        // Apply the changes again
-        //        entry.CurrentValues.SetValues(entry.OriginalValues);
-        //        await Context.SaveChangesAsync();
-
-        //    }
+        //    Context.Entry(entity).State = EntityState.Added;
+        //    Context.SaveChanges();
         //    return entity;
-
         //}
+
 
         public async Task<TEntity> AddAsync(TEntity entity)
         {
             try
             {
-                // Try to save changes to the database
-                Context.Entry(entity).State = EntityState.Added;
+                //Context.Entry(entity).State = EntityState.Added;
+                //await Context.SaveChangesAsync();
+                //return entity;
+
+                var entry = Context.Entry(entity);
+                await Context.Set<TEntity>().AddAsync(entity);
+                entry.Property(e => e.CreatedBy).CurrentValue = UserId;
+                if (entry.State == EntityState.Added)
+                {
+                    entry.Entity.DateCreated = DateTime.Now;
+                    entry.Entity.CreatedBy = UserId;
+                }
                 await Context.SaveChangesAsync();
                 return entity;
             }
             catch (DbUpdateConcurrencyException ex)
             {
-                // Get the entity that caused the concurrency exception
                 var entry = ex.Entries.Single();
-                // Reload the entity from the database
                 await entry.ReloadAsync();
-                // Apply the changes again
                 entry.CurrentValues.SetValues(entry.OriginalValues);
                 await Context.SaveChangesAsync();
                 return entity;
             }
             catch (Exception ex)
             {
-                // Throw a new exception with the original message
                 throw new Exception(ex.Message);
             }
         }
+
 
         public TEntity Delete(TEntity entity)
         {

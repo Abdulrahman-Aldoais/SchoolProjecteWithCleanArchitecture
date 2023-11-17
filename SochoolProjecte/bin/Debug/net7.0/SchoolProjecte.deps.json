@@ -74,6 +74,14 @@
           }
         }
       },
+      "BCrypt/1.0.0": {
+        "runtime": {
+          "lib/DevOne.Security.Cryptography.BCrypt.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "FluentValidation/11.8.0": {
         "runtime": {
           "lib/net7.0/FluentValidation.dll": {
@@ -986,7 +994,23 @@
           }
         }
       },
+      "Twileloop.ExpressSecurity/1.0.0": {
+        "dependencies": {
+          "BCrypt": "1.0.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/ExpressSecurity.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "Core.Application/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Authentication": "2.2.0",
+          "School.Domain": "1.0.0",
+          "Twileloop.ExpressSecurity": "1.0.0"
+        },
         "runtime": {
           "Core.Application.dll": {}
         }
@@ -1078,6 +1102,13 @@
       "sha512": "sha512-eHEiCO/8+MfNc9nH5dVew/+FvxdaGrkRL4OMNwIz0W79+wtJyEoeRlXJ3SrXhoy9XR58geBYKmzMR83VO7bcAw==",
       "path": "azure.identity/1.7.0",
       "hashPath": "azure.identity.1.7.0.nupkg.sha512"
+    },
+    "BCrypt/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/ibwe2Sg7MJR26IrEzW2Rde9/+A+AYXB5Kf9w/8BVLDdzSfUe4W2M7i2efy1Wa9wHh1k0y81Q6h9Ty8C6IrUGA==",
+      "path": "bcrypt/1.0.0",
+      "hashPath": "bcrypt.1.0.0.nupkg.sha512"
     },
     "FluentValidation/11.8.0": {
       "type": "package",
@@ -1834,6 +1865,13 @@
       "sha512": "sha512-IXoJOXIqc39AIe+CIR7koBtRGMiCt/LPM3lI+PELtDIy9XdyeSrwXFdWV9dzJ2Awl0paLWUaknLxFQ5HpHZUog==",
       "path": "system.windows.extensions/6.0.0",
       "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
+    },
+    "Twileloop.ExpressSecurity/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8bpLfwFCinerZyhYJHKQVXhOnFU/ptxBLHqg5arZKq8OtfOsJ2RfFKKVHEppVtxPMt70zjToURlZxa8RgYfsMQ==",
+      "path": "twileloop.expresssecurity/1.0.0",
+      "hashPath": "twileloop.expresssecurity.1.0.0.nupkg.sha512"
     },
     "Core.Application/1.0.0": {
       "type": "project",

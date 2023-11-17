@@ -1,0 +1,96 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            padding: 20px;
+        }
+
+        .login-form {
+            max-width: 300px;
+            margin: 0 auto;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+            .login-form h2 {
+                text-align: center;
+                margin-bottom: 20px;
+            }
+
+            .login-form input[type="text"],
+            .login-form input[type="password"] {
+                width: 100%;
+                padding: 10px;
+                margin-bottom: 10px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+            }
+
+            .login-form input[type="submit"] {
+                width: 100%;
+                padding: 10px;
+                background-color: #4CAF50;
+                color: #fff;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+
+                .login-form input[type="submit"]:hover {
+                    background-color: #45a049;
+                }
+
+            .login-form .error-message {
+                color: red;
+                margin-bottom: 10px;
+            }
+    </style>
+</head>
+<body>
+    <div class="login-form">
+        <h2>Login</h2>
+        <form id="formAuthentication" class="mb-3" asp-controller="Account" asp-action="Login" method="POST">
+            <div class="mb-3">
+                <label for="email" class="form-label">البريد الإلكتروني</label>
+                <input type="text"
+                       class="form-control"
+                       name="email"
+                       placeholder="ادخل بريدك الالكتروني"
+                       autofocus />
+            </div>
+            <div class="form-password-toggle mb-3">
+               
+                <div class="input-group input-group-merge">
+                    <input type="password"
+                           id="password"
+                           class="form-control"
+                           name="password"
+                           placeholder="&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;"
+                           aria-describedby="password" />
+                    <span class="input-group-text cursor-pointer"><i class="bx bx-hide"></i></span>
+                </div>
+            </div>
+            <div class="mb-3">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="checkbox1" name="rememberMe" />
+                    <label class="form-check-label" for="remember-me"> ذكرني </label>
+                </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary d-grid w-100">تسجيل الدخول</button>
+        </form>
+    </div>
+</body>
+</html>

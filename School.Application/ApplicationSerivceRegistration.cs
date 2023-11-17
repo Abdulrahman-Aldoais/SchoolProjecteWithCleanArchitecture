@@ -1,7 +1,9 @@
 ﻿
 
+using Core.Application.FormAuth.ClaimServices;
 using FluentValidation;
 using MediatR;
+using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 using School.Application.Service.DepartmentService;
 using School.Application.Service.StudentServices;
@@ -23,6 +25,12 @@ namespace School.Application
             services.AddScoped<IStudentService, StudentService>();
             services.AddScoped<IDepartmentService, DepartmentService>();
             services.AddScoped<IUserService, UserService>();
+            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+            services.AddSingleton<IClaimCoreService, ClaimCoreService>();
+
+
+
+
 
             return services;
         }

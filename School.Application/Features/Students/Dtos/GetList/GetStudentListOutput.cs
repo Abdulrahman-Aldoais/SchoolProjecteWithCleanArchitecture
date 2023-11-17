@@ -2,9 +2,9 @@
 {
     public class GetStudentListOutput
     {
-        public int Id { get; set; }
+        public Guid Id { get; set; }
         public string Name { get; set; }
-        public DateTime CreateTime { get; set; }
+        public DateTime DateCreated { get; set; }
         public int Age { get; set; }
         public string DepartmentName { get; set; }
     }

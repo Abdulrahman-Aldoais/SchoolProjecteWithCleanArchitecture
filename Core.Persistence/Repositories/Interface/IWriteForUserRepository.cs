@@ -2,6 +2,7 @@
 {
     public interface IWriteForUserRepository<TEntity> where TEntity : class
     {
+
         TEntity Add(TEntity entity);
         Task<TEntity> AddAsync(TEntity entity);
         TEntity Update(TEntity entity);

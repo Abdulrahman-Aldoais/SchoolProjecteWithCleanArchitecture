@@ -23,35 +23,6 @@ namespace School.Application.Features.User.Command.Create
             _userService = userService;
         }
 
-        //public async Task<BaseCommandResponse<GetUserOutput>> Handle(CreateUserCommand request, CancellationToken cancellationToken)
-        //{
-        //    var response = new BaseCommandResponse<GetUserOutput>();
-        //    var valiator = new CreateUserCommandHandlerValidation(_userReadRepository);
-        //    var validatorResult = await valiator.ValidateAsync(request);
-
-        //    if (!validatorResult.IsValid)
-        //    {
-        //        response.Data = null;
-        //        response.Success = false;
-        //        response.Message = "";
-        //        response.Errors = validatorResult.Errors.Select(x => x.ErrorMessage).ToList();
-        //    }
-        //    else
-        //    {
-        //        var userMapp = _mapper.Map<User>(request);
-        //        var result = await _userWriteRepository.AddAsync(userMapp);
-        //        var resultMapp = _mapper.Map<GetUserOutput>(result);
-        //        response.Id = resultMapp.Id;
-        //        response.Data = resultMapp;
-        //        response.Success = true;
-        //        response.Message = UserMessages.CreatedSuccess;
-        //        response.Errors = null;
-
-        //    }
-
-        //    return response;
-        //}
-
 
         public async Task<BaseCommandResponse<GetUserOutput>> Handle(CreateUserCommand request, CancellationToken cancellationToken)
         {
@@ -59,8 +30,9 @@ namespace School.Application.Features.User.Command.Create
 
             var identityUserMapp = _mapper.Map<ApplicationUser>(request);
             var createResult = await _userService.AddUserAsync(identityUserMapp, request.Password);
-            var resultMapp = _mapper.Map<GetUserOutput>(createResult);
-            switch (response.Message)
+
+
+            switch (createResult)
             {
                 case "EmailIsExist":
                     response.Errors.Add(SharedResourcesKeys.EmailIsExist);
@@ -75,6 +47,7 @@ namespace School.Application.Features.User.Command.Create
                     response.Errors.Add(SharedResourcesKeys.TryToRegisterAgain);
                     break;
                 case "Success":
+                    var resultMapp = _mapper.Map<GetUserOutput>(identityUserMapp);
                     response.Id = resultMapp.Id;
                     response.Success = true;
                     response.Data = _mapper.Map<GetUserOutput>(resultMapp);

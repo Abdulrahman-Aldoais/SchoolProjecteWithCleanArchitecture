@@ -13,7 +13,11 @@ namespace SchoolProjecte.Controllers
         {
             return View();
         }
-
+        [HttpGet]
+        public async Task<IActionResult> AddUser()
+        {
+            return View();
+        }
 
         [HttpPost, ValidateAntiForgeryToken]
         public async Task<IActionResult> AddUser(GetUserOutput getUserOutput)
@@ -23,6 +27,10 @@ namespace SchoolProjecte.Controllers
                 FullName = getUserOutput.FullName,
                 Address = getUserOutput.Address,
                 Country = getUserOutput.Country,
+                Email = getUserOutput.Email,
+                Password = getUserOutput.Password,
+                UserName = getUserOutput.UserName,
+                Task = getUserOutput.Task
             };
 
             var result = await Mediator.Send(addUserModel);

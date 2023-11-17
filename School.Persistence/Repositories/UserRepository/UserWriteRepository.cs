@@ -6,7 +6,7 @@ using School.Presistence.Context;
 namespace School.Persistence.Repositories.UserRepository
 {
 
-    internal class UserWriteRepository : WriteForUserRepository<ApplicationUser, SchoolDbContext>, IUserWriteRepository
+    internal class UserWriteRepository : WriteRepository<ApplicationUser, SchoolDbContext>, IUserWriteRepository
     {
         public UserWriteRepository(SchoolDbContext context) : base(context)
         {

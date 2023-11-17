@@ -1,8 +1,6 @@
-﻿using School.Domain.Entities;
-
-namespace Core.Persistence.Repositories.Interface
+﻿namespace Core.Persistence.Repositories.Interface
 {
-    public interface IWriteRepository<TEntity> where TEntity : BaseModel
+    public interface IWriteRepository<TEntity> where TEntity : class
     {
         TEntity Add(TEntity entity);
         Task<TEntity> AddAsync(TEntity entity);

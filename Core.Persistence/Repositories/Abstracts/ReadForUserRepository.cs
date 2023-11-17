@@ -27,7 +27,7 @@ namespace Core.Persistence.Repositories.Abstracts
 
         public TEntity Get(Expression<Func<TEntity, bool>> predicate = null)
         {
-            return Context.Set<TEntity>().FirstOrDefault(predicate);
+            return Context.Set<TEntity>().AsNoTracking().FirstOrDefault(predicate);
         }
 
         public IQueryable<TEntity> GetAll(Expression<Func<TEntity, bool>> predicate = null)
@@ -39,7 +39,7 @@ namespace Core.Persistence.Repositories.Abstracts
         }
         public async Task<TEntity> GetAsync(Expression<Func<TEntity, bool>> predicate = null)
         {
-            return await Context.Set<TEntity>().FirstOrDefaultAsync(predicate);
+            return await Context.Set<TEntity>().AsNoTracking().FirstOrDefaultAsync(predicate);
         }
 
         public async Task<IEnumerable<TEntity>> GetListAsync(Expression<Func<TEntity, bool>> predicate = null)

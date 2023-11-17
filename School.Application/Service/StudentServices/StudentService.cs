@@ -22,7 +22,7 @@ namespace School.Application.Service.StudentServices
                 Id = x.Id,
                 Name = x.Name,
                 Age = x.Age,
-                CreateTime = x.CreateTime,
+                DateCreated = x.DateCreated ?? DateTime.MinValue, // Use a default value if x.Date
                 DepartmentName = x.Department.Name
             }).ToListAsync();
         }
