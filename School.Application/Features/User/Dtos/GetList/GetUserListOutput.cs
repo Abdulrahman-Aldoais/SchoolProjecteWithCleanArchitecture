@@ -1,6 +1,6 @@
-﻿namespace School.Application.Features.User.Dtos.Get
+﻿namespace School.Application.Features.User.Dtos.GetList
 {
-    public class GetUserOutput
+    public class GetUserListOutput
     {
         public string Id { get; set; }
         public string Email { get; set; }
@@ -10,6 +10,5 @@
         public string FullName { get; set; }
         public string? Address { get; set; }
         public string? Country { get; set; }
-
     }
 }

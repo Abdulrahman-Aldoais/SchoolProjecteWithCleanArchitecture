@@ -31,7 +31,18 @@
             </div>
         </nav>
     </header>
+
     <div class="container">
+        @if (ViewBag.error != null)
+        {
+
+            <h1> @ViewBag.error</h1>
+        }
+        @if (ViewBag.Success != null)
+        {
+
+            <h1> @ViewBag.Success</h1>
+        }
         <main role="main" class="pb-3">
             @RenderBody()
         </main>

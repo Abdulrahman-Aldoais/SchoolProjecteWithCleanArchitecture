@@ -1,4 +1,4 @@
-﻿@model IEnumerable<School.Application.Features.Students.Dtos.GetList.GetStudentListOutput>
+﻿@model IEnumerable<School.Application.Features.User.Dtos.GetList.GetUserListOutput>
 @{
     ViewData["Title"] = "قائمة الطلاب";
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -79,18 +79,9 @@
 
 </head>
 <body>
+   
     <h1><a asp-controller="Student" asp-action="AddStudent" class="add-student-link">إضافة طالب</a></h1>
     <h1>بيانات الطلاب</h1>
-    @if (ViewBag.error != null)
-    {
-
-        <h1>kkkk   @ViewBag.error</h1>
-    }
-    @if (ViewBag.Success != null)
-    {
-
-        <h1> @ViewBag.Success</h1>
-    }
     <table>
         <tr>
             <th>الرقم</th>
@@ -103,9 +94,9 @@
         {
             <tr>
                 <td>@item.Id</td>
-                <td>@item.Name</td>
-                <td>@item.Age</td>
-                <td>@item.DepartmentName</td>
+                <td>@item.FullName</td>
+                <td>@item.Email</td>
+                <td>@item.Country</td>
                 <td class="action-buttons">
                     <a href="/student/edit/@item.Id" class="edit-button">تعديل</a>
                     <a href="/student/delete/@item.Id" class="delete-button">حذف</a>

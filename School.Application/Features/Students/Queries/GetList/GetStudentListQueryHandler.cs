@@ -8,14 +8,14 @@ using School.Application.Service.StudentServices;
 
 namespace School.Application.Features.Students.Queries.GetList
 {
-    public class GetStudentListQueryHandler : IRequestHandler<GetStudentListQuery, BaseCommandResponse<List<GetStudentListOutput>>>
+    public class GetUserListQueryHandler : IRequestHandler<GetStudentListQuery, BaseCommandResponse<List<GetStudentListOutput>>>
     {
 
         private readonly IStudentReadRepository _studentReadRepository;
         private readonly IMapper _mapper;
         private readonly IStudentService _studentService;
 
-        public GetStudentListQueryHandler(IStudentReadRepository studentReadRepository, IMapper mapper, IStudentService studentService)
+        public GetUserListQueryHandler(IStudentReadRepository studentReadRepository, IMapper mapper, IStudentService studentService)
         {
             _studentReadRepository = studentReadRepository;
             _studentService = studentService;

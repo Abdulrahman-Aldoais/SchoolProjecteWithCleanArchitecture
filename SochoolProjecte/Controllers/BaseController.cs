@@ -2,6 +2,7 @@
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
+using School.Domain.Resources;
 using SchoolProjecte.Models;
 using System.Net;
 
@@ -14,28 +15,62 @@ namespace SchoolProjecte.Controllers
 
 
         #region Actions
-        public ObjectResult NewResult<T>(BaseCommandResponse<T> response)
+        //public ObjectResult NewResult<T>(BaseCommandResponse<T> response)
+        //{
+        //    switch (response.StatusCode)
+        //    {
+        //        case HttpStatusCode.OK:
+        //            return new OkObjectResult(response);
+        //        case HttpStatusCode.Created:
+        //            return new CreatedResult(string.Empty, response);
+        //        case HttpStatusCode.Unauthorized:
+        //            return new UnauthorizedObjectResult(response);
+        //        case HttpStatusCode.BadRequest:
+        //            return new BadRequestObjectResult(response);
+        //        case HttpStatusCode.NotFound:
+        //            return new NotFoundObjectResult(response);
+        //        case HttpStatusCode.Accepted:
+        //            return new AcceptedResult(string.Empty, response);
+        //        case HttpStatusCode.UnprocessableEntity:
+        //            return new UnprocessableEntityObjectResult(response);
+        //        default:
+        //            return new BadRequestObjectResult(response);
+        //    }
+        //}
+
+
+        public async Task<IActionResult> NewResult<T>(BaseCommandResponse<string> result,
+            BaseCommandResponse<T> response, Func<IActionResult> value)
         {
             switch (response.StatusCode)
             {
                 case HttpStatusCode.OK:
-                    return new OkObjectResult(response);
+                    NotifySuccess(SharedResourcesKeys.Success); // تعديل هنا لنص الرسالة في حالة النجاح
+                    return await Task.FromResult(value.Invoke()); // استخدام Task.FromResult للحصول على Task<IActionResult>
                 case HttpStatusCode.Created:
-                    return new CreatedResult(string.Empty, response);
+                    NotifySuccess(SharedResourcesKeys.Created); // تعديل هنا لنص الرسالة في حالة النجاح
+                    return await Task.FromResult(value.Invoke()); // استخدام Task.FromResult للحصول على Task<IActionResult>
                 case HttpStatusCode.Unauthorized:
-                    return new UnauthorizedObjectResult(response);
+                    NotifyError(new List<string> { SharedResourcesKeys.UnAuthorized }); // تعديل هنا لنص الرسالة في حالة الخطأ
+                    return await Task.FromResult(value.Invoke());
                 case HttpStatusCode.BadRequest:
-                    return new BadRequestObjectResult(response);
+                    NotifyError(new List<string> { "Error message" }); // تعديل هنا لنص الرسالة في حالة الخطأ
+                    return await Task.FromResult(value.Invoke());
                 case HttpStatusCode.NotFound:
-                    return new NotFoundObjectResult(response);
+                    NotifyError(new List<string> { "Error message" }); // تعديل هنا لنص الرسالة في حالة الخطأ
+                    return await Task.FromResult(value.Invoke());
                 case HttpStatusCode.Accepted:
-                    return new AcceptedResult(string.Empty, response);
+                    NotifySuccess("Success message"); // تعديل هنا لنص الرسالة في حالة النجاح
+                    return await Task.FromResult(value.Invoke());
                 case HttpStatusCode.UnprocessableEntity:
-                    return new UnprocessableEntityObjectResult(response);
+                    NotifyError(new List<string> { "Error message" }); // تعديل هنا لنص الرسالة في حالة الخطأ
+                    return await Task.FromResult(value.Invoke());
                 default:
-                    return new BadRequestObjectResult(response);
+                    NotifyError(new List<string> { "Error message" }); // تعديل هنا لنص الرسالة في حالة الخطأ
+                    return await Task.FromResult(value.Invoke()); // استخدام Task.FromResult للحصول على Task<IActionResult>
             }
         }
+
         #endregion
 
         public void NotifySuccess(string successMessage)

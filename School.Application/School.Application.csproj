@@ -9,8 +9,6 @@
   <ItemGroup>
     <Folder Include="Features\User\Command\Deleate\" />
     <Folder Include="Features\User\Command\Update\" />
-    <Folder Include="Features\User\Dtos\GetList\" />
-    <Folder Include="Features\User\Queries\GetList\" />
     <Folder Include="Features\User\Queries\Get\" />
     <Folder Include="Features\Departments\Commands\Delete\" />
     <Folder Include="Features\Departments\Commands\Update\" />

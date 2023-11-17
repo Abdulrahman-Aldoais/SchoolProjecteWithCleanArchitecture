@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using School.Application.Features.User.Command.Create;
 using School.Application.Features.User.Dtos.Get;
+using School.Application.Features.User.Queries.GetList;
 
 namespace SchoolProjecte.Controllers
 {
@@ -9,9 +10,11 @@ namespace SchoolProjecte.Controllers
 
 
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            return View();
+            var getAllUser = await Mediator.Send(new GetUserListQuery());
+
+            return View(getAllUser.Data);
         }
         [HttpGet]
         public async Task<IActionResult> AddUser()
@@ -34,16 +37,31 @@ namespace SchoolProjecte.Controllers
             };
 
             var result = await Mediator.Send(addUserModel);
-            if (result.Success)
+            return await NewResult(result, result, () =>
             {
-                NotifySuccess(result.Message);
-                return RedirectToAction("Index", "User");
-            }
-            else
-            {
-                NotifyError(result.Errors);
-                return View(getUserOutput);
-            }
+                if (result.Success)
+                {
+                    ViewBag.Success = result.Errors;
+                    NotifySuccess(result.Message);
+                    return RedirectToAction("Index", "User");
+                }
+                else
+                {
+                    ViewBag.error = result.Errors;
+                    NotifyError(result.Errors);
+                    return View(getUserOutput);
+                }
+            });
+            //if (result.Success)
+            //{
+            //    NotifySuccess(result.Message);
+            //    return RedirectToAction("Index", "User");
+            //}
+            //else
+            //{
+            //    NotifyError(result.Errors);
+            //    return View(getUserOutput);
+            //}
 
 
         }
