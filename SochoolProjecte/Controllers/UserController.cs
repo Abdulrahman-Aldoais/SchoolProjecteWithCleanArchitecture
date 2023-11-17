@@ -41,27 +41,17 @@ namespace SchoolProjecte.Controllers
             {
                 if (result.Success)
                 {
-                    ViewBag.Success = result.Errors;
+                    ViewBag.Success = result.Message;
                     NotifySuccess(result.Message);
                     return RedirectToAction("Index", "User");
                 }
                 else
                 {
-                    ViewBag.error = result.Errors;
+                    ViewBag.error = result.Message;
                     NotifyError(result.Errors);
                     return View(getUserOutput);
                 }
             });
-            //if (result.Success)
-            //{
-            //    NotifySuccess(result.Message);
-            //    return RedirectToAction("Index", "User");
-            //}
-            //else
-            //{
-            //    NotifyError(result.Errors);
-            //    return View(getUserOutput);
-            //}
 
 
         }
