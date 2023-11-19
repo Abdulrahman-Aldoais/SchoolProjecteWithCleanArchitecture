@@ -197,6 +197,10 @@
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
+      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\extended-ui-sweetalert2.js",
+      "PackagePath": "staticwebassets\\lib\\extended-ui-sweetalert2.js"
+    },
+    {
       "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
@@ -243,6 +247,38 @@
     {
       "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\sweetalert2\\sweetalert2.css",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\sweetalert2.css"
+    },
+    {
+      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\sweetalert2\\sweetalert2.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\sweetalert2.js"
+    },
+    {
+      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\limonte-sweetalert2\\sweetalert2.all.js",
+      "PackagePath": "staticwebassets\\limonte-sweetalert2\\sweetalert2.all.js"
+    },
+    {
+      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\limonte-sweetalert2\\sweetalert2.all.min.js",
+      "PackagePath": "staticwebassets\\limonte-sweetalert2\\sweetalert2.all.min.js"
+    },
+    {
+      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\limonte-sweetalert2\\sweetalert2.css",
+      "PackagePath": "staticwebassets\\limonte-sweetalert2\\sweetalert2.css"
+    },
+    {
+      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\limonte-sweetalert2\\sweetalert2.js",
+      "PackagePath": "staticwebassets\\limonte-sweetalert2\\sweetalert2.js"
+    },
+    {
+      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\limonte-sweetalert2\\sweetalert2.min.css",
+      "PackagePath": "staticwebassets\\limonte-sweetalert2\\sweetalert2.min.css"
+    },
+    {
+      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\limonte-sweetalert2\\sweetalert2.min.js",
+      "PackagePath": "staticwebassets\\limonte-sweetalert2\\sweetalert2.min.js"
     },
     {
       "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\css\\select2.css",

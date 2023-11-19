@@ -44,6 +44,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.8.0, )"
+            },
             "Microsoft.AspNetCore.Authentication": {
               "target": "Package",
               "version": "[2.2.0, )"
@@ -170,6 +174,9 @@
               },
               "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\School.Domain\\School.Domain.csproj": {
                 "projectPath": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\School.Domain\\School.Domain.csproj"
+              },
+              "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\School.Persistence\\School.Persistence.csproj": {
+                "projectPath": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\School.Persistence\\School.Persistence.csproj"
               }
             }
           }
@@ -208,21 +215,9 @@
               "target": "Package",
               "version": "[11.0.0, )"
             },
-            "Microsoft.AspNetCore.Http.Abstractions": {
-              "target": "Package",
-              "version": "[2.2.0, )"
-            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[7.0.13, )"
-            },
-            "Microsoft.Extensions.DependencyInjection.Abstractions": {
-              "target": "Package",
-              "version": "[7.0.0, )"
-            },
-            "Microsoft.Extensions.Hosting": {
-              "target": "Package",
-              "version": "[7.0.1, )"
             }
           },
           "imports": [
@@ -334,8 +329,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\School.Application\\School.Application.csproj": {
-                "projectPath": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\School.Application\\School.Application.csproj"
+              "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\Core.Persistence\\Core.Persistence.csproj": {
+                "projectPath": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\Core.Persistence\\Core.Persistence.csproj"
               },
               "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\School.Domain\\School.Domain.csproj": {
                 "projectPath": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\School.Domain\\School.Domain.csproj"
@@ -449,15 +444,27 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.13, )"
             },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
             }
           },
           "imports": [

@@ -1,21 +1,17 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using School.Application.Repositories.DepartmentRepository;
-using School.Application.Repositories.StudentRepository;
-using School.Application.Repositories.UserRepository;
 using School.Domain.Entities;
 using School.Persistence.Repositories.DepartmentRepository;
+using School.Persistence.Repositories.StudentRepository;
 using School.Persistence.Repositories.UserRepository;
 using School.Presistence.Context;
-using School.Presistence.Repositories.StudentRepository;
 
-namespace School.Presistence
+namespace School.Persistence
 {
     public static class PersistenceServiceRegistration
     {
-        public static IServiceCollection AddPersistenceServices(this IServiceCollection services, IConfiguration configuration)
+        public static IServiceCollection AddPersistenceServices(this IServiceCollection services)
         {
             services.AddDbContext<SchoolDbContext>(
                 opt =>
@@ -28,7 +24,6 @@ namespace School.Presistence
                 .AddEntityFrameworkStores<SchoolDbContext>()
                 .AddDefaultTokenProviders();
 
-
             // Repositories
             //services.Configure<Potions>(Configuration)
             services.AddScoped<IStudentReadRepository, StudentReadRepository>();
@@ -36,6 +31,15 @@ namespace School.Presistence
             services.AddScoped<IDepartmentReadRepository, DepartmentReadRepository>();
             services.AddScoped<IDepartmentWriteRepository, DepartmentWriteRepository>();
             services.AddScoped<IUserReadRepository, UserReadRepository>();
+            //services.AddScoped<IUserReadRepository, UserReadRepository>(
+            //             provider => provider.GetRequiredService<UserReadRepository>()
+            //             );
+            services.AddScoped<IUserWriteRepository, UserWriteRepository>();
+            //services.AddScoped<IUserWriteRepository, UserWriteRepository>(
+            //            provider => provider.GetRequiredService<UserWriteRepository>()
+            //             );
+            //services.addscoped(typeof(writeforuserrepository<,>));
+            //services.addscoped(typeof(readforuserrepository<,>));
             services.AddScoped<IUserWriteRepository, UserWriteRepository>();
 
 

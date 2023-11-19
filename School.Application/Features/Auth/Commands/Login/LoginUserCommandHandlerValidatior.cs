@@ -1,5 +1,5 @@
 ﻿using FluentValidation;
-using School.Application.Repositories.UserRepository;
+using School.Persistence.Repositories.UserRepository;
 
 namespace School.Application.Features.Auth.Commands.Login
 {

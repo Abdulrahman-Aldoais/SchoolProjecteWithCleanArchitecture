@@ -23,9 +23,11 @@ namespace SchoolProjecte.Controllers
         }
 
         [HttpPost, ValidateAntiForgeryToken]
+        [Route("user/addUser/")]
         public async Task<IActionResult> AddUser(GetUserOutput getUserOutput)
         {
-            var addUserModel = new CreateUserCommand
+
+            var result = await Mediator.Send(new CreateUserCommand
             {
                 FullName = getUserOutput.FullName,
                 Address = getUserOutput.Address,
@@ -34,20 +36,18 @@ namespace SchoolProjecte.Controllers
                 Password = getUserOutput.Password,
                 UserName = getUserOutput.UserName,
                 Task = getUserOutput.Task
-            };
-
-            var result = await Mediator.Send(addUserModel);
-            return await NewResult(result, result, () =>
+            });
+            return await NewResult(result, () =>
             {
                 if (result.Success)
                 {
-                    ViewBag.Success = result.Message;
+                    //TempData["success"] = result.Message;
                     NotifySuccess(result.Message);
                     return RedirectToAction("Index", "User");
                 }
                 else
                 {
-                    ViewBag.error = result.Message;
+                    //TempData["error"] = result.Message;
                     NotifyError(result.Errors);
                     return View(getUserOutput);
                 }

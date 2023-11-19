@@ -3,8 +3,9 @@ using Core.Application.Responses;
 using MediatR;
 using School.Application.Features.Students.Constants;
 using School.Application.Features.Students.Dtos.GetList;
-using School.Application.Repositories.StudentRepository;
+
 using School.Application.Service.StudentServices;
+using School.Persistence.Repositories.StudentRepository;
 
 namespace School.Application.Features.Students.Queries.GetList
 {

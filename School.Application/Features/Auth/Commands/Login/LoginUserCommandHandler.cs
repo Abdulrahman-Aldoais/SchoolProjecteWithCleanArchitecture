@@ -6,9 +6,10 @@ using MediatR;
 using Microsoft.AspNetCore.Identity;
 using School.Application.Features.Auth.Constants;
 using School.Application.Features.Auth.Dto.GetLogin;
-using School.Application.Repositories.UserRepository;
+
 using School.Domain.Entities;
 using School.Domain.Resources;
+using School.Persistence.Repositories.UserRepository;
 
 namespace School.Application.Features.Auth.Commands.Login
 {

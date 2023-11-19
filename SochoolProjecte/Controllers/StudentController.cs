@@ -32,7 +32,7 @@ namespace SchoolProjecte.Controllers
         }
 
         [HttpPost, ValidateAntiForgeryToken]
-        [Route("student/addStudent/")]
+        [Route("student/addStudent")]
         public async Task<IActionResult> AddStudent(StudentCreateViewModel model)
         {
             var createStudentCommand = new CreateStudentCommand()
@@ -51,8 +51,18 @@ namespace SchoolProjecte.Controllers
             }
             else
             {
+
                 NotifyError(result.Errors);
-                return View(model);
+                var getListDepartment = await Mediator.Send(new GetDepartmentListQuery());
+
+
+                var modell = new StudentCreateViewModel
+                {
+                    Student = new GetStudentOutput(),
+                    getListDepartment = getListDepartment.Data
+                };
+
+                return View(modell);
             }
         }
 

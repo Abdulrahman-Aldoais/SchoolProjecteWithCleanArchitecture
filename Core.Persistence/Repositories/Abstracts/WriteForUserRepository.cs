@@ -8,10 +8,8 @@ using System.Security.Claims;
 namespace Core.Persistence.Repositories.Abstracts
 {
     public class WriteForUserRepository<TEntity, TContext> : IWriteForUserRepository<TEntity>
-
-        where TEntity : BaseModel
-
-        where TContext : DbContext
+      where TEntity : BaseModel
+      where TContext : DbContext
     {
         protected TContext Context;
 
@@ -26,6 +24,7 @@ namespace Core.Persistence.Repositories.Abstracts
             _userManager = userManager;
             Context = context;
         }
+
 
         public TEntity Add(TEntity entity)
         {

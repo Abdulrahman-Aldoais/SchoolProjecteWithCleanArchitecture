@@ -5,14 +5,32 @@ using System.Linq.Expressions;
 namespace Core.Persistence.Repositories.Abstracts
 {
     public class ReadForUserRepository<TEntity, TContext> : IReadForUserRepository<TEntity>
-      where TEntity : class
-      where TContext : DbContext
+    where TEntity : class
+    where TContext : DbContext
     {
+        private static ReadForUserRepository<TEntity, TContext> _instance;
+        private static readonly object _lock = new object();
+
         protected TContext Context;
 
-        public ReadForUserRepository(TContext context)
+        protected ReadForUserRepository(TContext context)
         {
             Context = context;
+        }
+
+        public static ReadForUserRepository<TEntity, TContext> GetInstance(TContext context)
+        {
+            if (_instance == null)
+            {
+                lock (_lock)
+                {
+                    if (_instance == null)
+                    {
+                        _instance = new ReadForUserRepository<TEntity, TContext>(context);
+                    }
+                }
+            }
+            return _instance;
         }
 
         public async Task<bool> AnyAsync(Expression<Func<TEntity, bool>> predicate = null)

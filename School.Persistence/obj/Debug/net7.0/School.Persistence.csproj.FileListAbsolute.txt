@@ -30,13 +30,9 @@ E:\My_GitHub\SchoolProjecteWithCleanArchitecture\School.Persistence\bin\Debug\ne
 E:\My_GitHub\SchoolProjecteWithCleanArchitecture\School.Persistence\bin\Debug\net7.0\School.Persistence.runtimeconfig.json
 E:\My_GitHub\SchoolProjecteWithCleanArchitecture\School.Persistence\bin\Debug\net7.0\School.Persistence.dll
 E:\My_GitHub\SchoolProjecteWithCleanArchitecture\School.Persistence\bin\Debug\net7.0\School.Persistence.pdb
-E:\My_GitHub\SchoolProjecteWithCleanArchitecture\School.Persistence\bin\Debug\net7.0\Core.Application.dll
 E:\My_GitHub\SchoolProjecteWithCleanArchitecture\School.Persistence\bin\Debug\net7.0\Core.Persistence.dll
-E:\My_GitHub\SchoolProjecteWithCleanArchitecture\School.Persistence\bin\Debug\net7.0\School.Application.dll
 E:\My_GitHub\SchoolProjecteWithCleanArchitecture\School.Persistence\bin\Debug\net7.0\School.Domain.dll
-E:\My_GitHub\SchoolProjecteWithCleanArchitecture\School.Persistence\bin\Debug\net7.0\School.Application.pdb
 E:\My_GitHub\SchoolProjecteWithCleanArchitecture\School.Persistence\bin\Debug\net7.0\School.Domain.pdb
-E:\My_GitHub\SchoolProjecteWithCleanArchitecture\School.Persistence\bin\Debug\net7.0\Core.Application.pdb
 E:\My_GitHub\SchoolProjecteWithCleanArchitecture\School.Persistence\bin\Debug\net7.0\Core.Persistence.pdb
 E:\My_GitHub\SchoolProjecteWithCleanArchitecture\School.Persistence\obj\Debug\net7.0\School.Persistence.csproj.CopyComplete
 E:\My_GitHub\SchoolProjecteWithCleanArchitecture\School.Persistence\obj\Debug\net7.0\School.Persistence.dll

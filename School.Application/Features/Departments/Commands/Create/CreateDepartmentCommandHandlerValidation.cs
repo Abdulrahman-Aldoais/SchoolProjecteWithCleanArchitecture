@@ -1,5 +1,6 @@
 ﻿using FluentValidation;
-using School.Application.Repositories.DepartmentRepository;
+
+using School.Persistence.Repositories.DepartmentRepository;
 
 namespace School.Application.Features.Departments.Commands.Create
 {

@@ -2,8 +2,8 @@
 using Core.Application.Responses;
 using MediatR;
 using School.Application.Features.Departments.Dtos.Get;
-using School.Application.Repositories.DepartmentRepository;
 using School.Domain.Entities;
+using School.Persistence.Repositories.DepartmentRepository;
 
 namespace School.Application.Features.Departments.Commands.Create
 {

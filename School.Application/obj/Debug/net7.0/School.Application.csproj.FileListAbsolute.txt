@@ -36,3 +36,5 @@ E:\My_GitHub\SchoolProjecteWithCleanArchitecture\School.Application\obj\Debug\ne
 E:\My_GitHub\SchoolProjecteWithCleanArchitecture\School.Application\obj\Debug\net7.0\refint\School.Application.dll
 E:\My_GitHub\SchoolProjecteWithCleanArchitecture\School.Application\obj\Debug\net7.0\School.Application.pdb
 E:\My_GitHub\SchoolProjecteWithCleanArchitecture\School.Application\obj\Debug\net7.0\ref\School.Application.dll
+E:\My_GitHub\SchoolProjecteWithCleanArchitecture\School.Application\bin\Debug\net7.0\School.Persistence.dll
+E:\My_GitHub\SchoolProjecteWithCleanArchitecture\School.Application\bin\Debug\net7.0\School.Persistence.pdb

@@ -1,9 +1,10 @@
 ﻿using Core.Application.Responses;
 using MediatR;
+using School.Application.Features.User.Dtos.Get;
 
 namespace School.Application.Features.User.Command.Create
 {
-    public class CreateUserCommand : IRequest<BaseCommandResponse<string>>
+    public class CreateUserCommand : IRequest<BaseCommandResponse<GetUserOutput>>
     {
         //public int Id { get; set; }
         public string FullName { get; set; }

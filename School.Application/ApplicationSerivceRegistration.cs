@@ -24,10 +24,12 @@ namespace School.Application
             // Services
             services.AddScoped<IStudentService, StudentService>();
             services.AddScoped<IDepartmentService, DepartmentService>();
-            services.AddScoped<IUserService, UserService>();
+            services.AddScoped<IUserService, UserSingletonService>();
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
             services.AddSingleton<IClaimCoreService, ClaimCoreService>();
-
+            services.AddScoped<IUserService, UserSingletonService>(
+            provider => provider.GetRequiredService<UserSingletonService>()
+                         );
 
 
 

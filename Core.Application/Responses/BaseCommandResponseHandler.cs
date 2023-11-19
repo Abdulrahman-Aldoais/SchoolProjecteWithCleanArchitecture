@@ -4,9 +4,9 @@ namespace Core.Application.Responses
 {
     public class BaseCommandBaseCommandResponseHandler
     {
-        public BaseCommandResponse<T> Deleted<T>(string Message = null)
+        public BaseCommandResponse<string> Deleted<T>(string Message = null)
         {
-            return new BaseCommandResponse<T>()
+            return new BaseCommandResponse<string>()
             {
                 StatusCode = System.Net.HttpStatusCode.OK,
                 Success = true,
@@ -24,9 +24,9 @@ namespace Core.Application.Responses
                 Meta = Meta
             };
         }
-        public BaseCommandResponse<T> Unauthorized<T>(string Message = null)
+        public BaseCommandResponse<string> Unauthorized<T>(string Message = null)
         {
-            return new BaseCommandResponse<T>()
+            return new BaseCommandResponse<string>()
             {
                 StatusCode = System.Net.HttpStatusCode.Unauthorized,
                 Success = true,
@@ -43,9 +43,9 @@ namespace Core.Application.Responses
             };
         }
 
-        public BaseCommandResponse<T> UnprocessableEntity<T>(string Message = null)
+        public BaseCommandResponse<string> UnprocessableEntity<T>(string Message = null)
         {
-            return new BaseCommandResponse<T>()
+            return new BaseCommandResponse<string>()
             {
                 StatusCode = System.Net.HttpStatusCode.UnprocessableEntity,
                 Success = false,
@@ -54,9 +54,9 @@ namespace Core.Application.Responses
         }
 
 
-        public BaseCommandResponse<T> NotFound<T>(string message = null)
+        public BaseCommandResponse<string> NotFound<T>(string message = null)
         {
-            return new BaseCommandResponse<T>()
+            return new BaseCommandResponse<string>()
             {
                 StatusCode = System.Net.HttpStatusCode.NotFound,
                 Success = false,

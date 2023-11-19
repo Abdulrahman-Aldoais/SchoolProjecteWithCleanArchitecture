@@ -1,5 +1,6 @@
-﻿using Core.Persistence.Repositories.Abstracts;
-using School.Application.Repositories.DepartmentRepository;
+﻿
+
+using Core.Persistence.Repositories.Abstracts;
 using School.Domain.Entities;
 using School.Presistence.Context;
 

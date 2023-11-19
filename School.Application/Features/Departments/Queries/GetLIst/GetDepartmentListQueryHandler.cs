@@ -2,7 +2,8 @@
 using Core.Application.Responses;
 using MediatR;
 using School.Application.Features.Departments.Dtos.GetList;
-using School.Application.Repositories.DepartmentRepository;
+
+using School.Persistence.Repositories.DepartmentRepository;
 
 namespace School.Application.Features.Departments.Queries.GetList
 {

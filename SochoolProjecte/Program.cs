@@ -1,8 +1,8 @@
 using Core.Application.FormAuth.CookieScheme;
 using Microsoft.AspNetCore.DataProtection;
 using School.Application;
+using School.Persistence;
 using School.Persistence.Configurations;
-using School.Presistence;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -18,12 +18,14 @@ builder.Services.Configure<CookiePolicyOptions>(options =>
     options.MinimumSameSitePolicy = Microsoft.AspNetCore.Http.SameSiteMode.None;
 });
 
-builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
-// Add services to the container.
-builder.Services.AddControllersWithViews();
 //AddApplicationServices
-builder.Services.AddPersistenceServices(builder.Configuration);
 builder.Services.AddApplicationServices();
+builder.Services.AddPersistenceServices();
+//builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+builder.Services.AddHttpContextAccessor();
+// Add services to the container.
+builder.Services.AddLocalization();
+builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation().AddViewLocalization();
 
 
 // Authentication
@@ -53,7 +55,7 @@ using (var scope = app.Services.CreateScope())
     // Seed users and roles
     await UsersConfiguration.SeedUsersAndRolesAsync(serviceProvider);
 }
-
+app.UseRequestLocalization();
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {

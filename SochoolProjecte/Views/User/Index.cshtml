@@ -82,16 +82,11 @@
 
     <h1><a asp-controller="Student" asp-action="AddStudent" class="add-student-link">إضافة طالب</a></h1>
     <h1>بيانات الطلاب</h1>
-    @if (ViewBag.error != null)
-    {
+  
 
-        <h1>kkkk   @ViewBag.error</h1>
-    }
-    @if (ViewBag.Success != null)
-    {
 
-        <h1> @ViewBag.Success</h1>
-    }
+        <h1>@TempData["success"]</h1>
+    
     <table>
         <tr>
             <th>الرقم</th>

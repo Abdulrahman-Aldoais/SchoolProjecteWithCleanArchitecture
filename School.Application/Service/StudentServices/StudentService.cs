@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using School.Application.Features.Students.Dtos.GetList;
-using School.Application.Repositories.StudentRepository;
+
+using School.Persistence.Repositories.StudentRepository;
 
 namespace School.Application.Service.StudentServices
 {
@@ -13,6 +14,8 @@ namespace School.Application.Service.StudentServices
 
             _studentReadRepository = studentReadRepository;
         }
+
+
         public async Task<List<GetStudentListOutput>> GetAllStudentAsync()
         {
             var query = _studentReadRepository.GetAll()

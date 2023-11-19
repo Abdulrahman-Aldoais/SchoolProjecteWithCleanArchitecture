@@ -10,8 +10,8 @@ namespace School.Application.Features.User.Command.Create
         {
 
             RuleFor(x => x.FullName)
-                .NotEmpty().WithMessage(SharedResourcesKeys.NotEmpty)
-                .NotNull().WithMessage(SharedResourcesKeys.Required);
+     .NotEmpty().WithMessage(SharedResourcesKeys.NotEmpty)
+     .NotNull().WithMessage(SharedResourcesKeys.Required);
 
 
             RuleFor(x => x.Address)

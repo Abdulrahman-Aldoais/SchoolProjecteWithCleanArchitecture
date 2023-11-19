@@ -4,15 +4,15 @@ using MediatR;
 using School.Application.Features.Students.Constants;
 using School.Application.Features.User.Dtos.GetList;
 
-using School.Application.Repositories.UserRepository;
 using School.Application.Service.UserService;
+using School.Persistence.Repositories.UserRepository;
 
 namespace School.Application.Features.User.Queries.GetList
 {
     public class GetUserListQueryHandler : IRequestHandler<GetUserListQuery, BaseCommandResponse<List<GetUserListOutput>>>
     {
 
-        private readonly IUserReadRepository _userReadRepository;
+        public readonly IUserReadRepository _userReadRepository;
         private readonly IMapper _mapper;
         private readonly IUserService _userService;
 

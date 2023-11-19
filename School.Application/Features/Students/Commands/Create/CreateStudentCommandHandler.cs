@@ -4,8 +4,9 @@ using MediatR;
 using Microsoft.AspNetCore.Http;
 using School.Application.Features.Departments;
 using School.Application.Features.Students.Dtos.Get;
-using School.Application.Repositories.StudentRepository;
+
 using School.Domain.Entities;
+using School.Persistence.Repositories.StudentRepository;
 using System.Security.Claims;
 
 namespace School.Application.Features.Students.Commands.Create

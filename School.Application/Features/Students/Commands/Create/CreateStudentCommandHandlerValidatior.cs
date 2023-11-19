@@ -1,7 +1,7 @@
 ﻿using FluentValidation;
 using School.Application.Features.Students.Constants;
-using School.Application.Repositories.StudentRepository;
 using School.Domain.Resources;
+using School.Persistence.Repositories.StudentRepository;
 
 namespace School.Application.Features.Students.Commands.Create
 {

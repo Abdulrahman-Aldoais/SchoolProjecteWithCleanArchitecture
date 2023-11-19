@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v7.0": {
       "Core.Application/1.0.0": {
         "dependencies": {
+          "FluentValidation": "11.8.0",
           "Microsoft.AspNetCore.Authentication": "2.2.0",
           "School.Domain": "1.0.0",
           "Twileloop.ExpressSecurity": "1.0.0"
@@ -21,6 +22,14 @@
           "lib/DevOne.Security.Cryptography.BCrypt.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "FluentValidation/11.8.0": {
+        "runtime": {
+          "lib/net7.0/FluentValidation.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.8.0.0"
           }
         }
       },
@@ -491,6 +500,13 @@
       "sha512": "sha512-/ibwe2Sg7MJR26IrEzW2Rde9/+A+AYXB5Kf9w/8BVLDdzSfUe4W2M7i2efy1Wa9wHh1k0y81Q6h9Ty8C6IrUGA==",
       "path": "bcrypt/1.0.0",
       "hashPath": "bcrypt.1.0.0.nupkg.sha512"
+    },
+    "FluentValidation/11.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TiEaaYqSIAS+wXQv46LRm8Mca092XYNePD0n231Hqlkmm5FuToZoWnjI1ef/vJUxBzqR7/k2vaVQXxijNgVKRQ==",
+      "path": "fluentvalidation/11.8.0",
+      "hashPath": "fluentvalidation.11.8.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Authentication/2.2.0": {
       "type": "package",
