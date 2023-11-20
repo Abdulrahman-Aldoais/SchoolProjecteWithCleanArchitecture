@@ -8,8 +8,6 @@ namespace Core.Persistence.Repositories.Abstracts
     where TEntity : class
     where TContext : DbContext
     {
-        private static ReadForUserRepository<TEntity, TContext> _instance;
-        private static readonly object _lock = new object();
 
         protected TContext Context;
 
@@ -18,20 +16,7 @@ namespace Core.Persistence.Repositories.Abstracts
             Context = context;
         }
 
-        public static ReadForUserRepository<TEntity, TContext> GetInstance(TContext context)
-        {
-            if (_instance == null)
-            {
-                lock (_lock)
-                {
-                    if (_instance == null)
-                    {
-                        _instance = new ReadForUserRepository<TEntity, TContext>(context);
-                    }
-                }
-            }
-            return _instance;
-        }
+
 
         public async Task<bool> AnyAsync(Expression<Func<TEntity, bool>> predicate = null)
         {

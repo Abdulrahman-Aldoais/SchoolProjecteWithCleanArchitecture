@@ -31,15 +31,7 @@ namespace School.Persistence
             services.AddScoped<IDepartmentReadRepository, DepartmentReadRepository>();
             services.AddScoped<IDepartmentWriteRepository, DepartmentWriteRepository>();
             services.AddScoped<IUserReadRepository, UserReadRepository>();
-            //services.AddScoped<IUserReadRepository, UserReadRepository>(
-            //             provider => provider.GetRequiredService<UserReadRepository>()
-            //             );
             services.AddScoped<IUserWriteRepository, UserWriteRepository>();
-            //services.AddScoped<IUserWriteRepository, UserWriteRepository>(
-            //            provider => provider.GetRequiredService<UserWriteRepository>()
-            //             );
-            //services.addscoped(typeof(writeforuserrepository<,>));
-            //services.addscoped(typeof(readforuserrepository<,>));
             services.AddScoped<IUserWriteRepository, UserWriteRepository>();
 
 
