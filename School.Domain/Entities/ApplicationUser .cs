@@ -1,5 +1,5 @@
 ﻿using Microsoft.AspNetCore.Identity;
-using SchoolProject.Data.Entities;
+using School.Domain.Entities;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace School.Domain.Entities

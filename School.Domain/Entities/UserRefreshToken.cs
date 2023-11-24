@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace SchoolProject.Data.Entities
+namespace School.Domain.Entities
 {
     public class UserRefreshToken
     {

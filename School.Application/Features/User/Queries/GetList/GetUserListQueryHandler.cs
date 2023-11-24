@@ -12,16 +12,22 @@ namespace School.Application.Features.User.Queries.GetList
     public class GetUserListQueryHandler : IRequestHandler<GetUserListQuery, BaseCommandResponse<List<GetUserListOutput>>>
     {
 
+        #region Fields
         public readonly IUserReadRepository _userReadRepository;
         private readonly IMapper _mapper;
         private readonly IUserService _userService;
+        #endregion
 
+        #region Constructors
         public GetUserListQueryHandler(IUserReadRepository userReadRepository, IMapper mapper, IUserService userService)
         {
             _userReadRepository = userReadRepository;
             _userService = userService;
             _mapper = mapper;
         }
+        #endregion
+
+        #region Handler
         public async Task<BaseCommandResponse<List<GetUserListOutput>>> Handle(GetUserListQuery request, CancellationToken cancellationToken)
         {
             var response = new BaseCommandResponse<List<GetUserListOutput>>();
@@ -43,5 +49,7 @@ namespace School.Application.Features.User.Queries.GetList
             }
             return response;
         }
+        #endregion
+
     }
 }

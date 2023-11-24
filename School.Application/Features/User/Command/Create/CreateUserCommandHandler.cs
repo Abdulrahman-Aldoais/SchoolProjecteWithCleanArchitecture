@@ -12,17 +12,21 @@ namespace School.Application.Features.User.Command.Create
     public class CreateUserCommandHandler : BaseCommandBaseCommandResponseHandler,
         IRequestHandler<CreateUserCommand, BaseCommandResponse<GetUserOutput>>
     {
-
+        #region Fields
         private readonly IUserService _userService;
         private readonly IMapper _mapper;
+        #endregion
+
+        #region Constructors
         public CreateUserCommandHandler(IUserService userService, IUserReadRepository userReadRepository, IUserWriteRepository userWriteRepository, IMapper mapper)
         {
 
             _mapper = mapper;
             _userService = userService;
         }
+        #endregion
 
-
+        #region Action
         public async Task<BaseCommandResponse<GetUserOutput>> Handle(CreateUserCommand request, CancellationToken cancellationToken)
         {
             var response = new BaseCommandResponse<GetUserOutput>();
@@ -54,7 +58,7 @@ namespace School.Application.Features.User.Command.Create
             return response;
 
         }
-
+        #endregion
 
     }
 }

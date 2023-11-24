@@ -1,0 +1,36 @@
+﻿
+@model StudentCreateViewModel
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<form asp-action="Edit" asp-controller="Student" method="POST">
+    <input type="hidden" asp-for="Student.Id" name="Student.Id" />
+    @Html.AntiForgeryToken()
+    <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
+    <div>
+        <label for="departmentName">الاسم:</label>
+        <input type="text" asp-for="Student.Name" required>
+        <span class="text-danger" asp-validation-for="Student.Name"></span>
+
+    </div>
+    <div>
+        <label for="departmentName">العمر:</label>
+        <input type="number" asp-for="Student.Age" required>
+        <span class="text-danger" asp-validation-for="Student.Age"></span>
+    </div>
+    <div>
+        <label for="departmentLocation">القسم:</label>
+        <select asp-for="Student.DepartmentId" class="form-control" required>
+            <option selected="selected" value="0">اختر صنف المنشور</option>
+            @foreach (var item in Model.getListDepartment)
+            {
+                <option value="@item.Id">@item.Name</option>
+            }
+        </select>
+        <span class="text-danger" asp-validation-for="Student.DepartmentId"></span>
+    </div>
+    <div>
+        <button type="submit" class="btn btn-success btn-rounded btn-lg btn-block">إضافة</button>
+    </div>
+</form>
+

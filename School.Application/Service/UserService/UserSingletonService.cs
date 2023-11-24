@@ -10,13 +10,16 @@ namespace School.Application.Service.UserService
 {
     public class UserSingletonService : IUserService
     {
-
+        #region Fields
         public string UserId { get; }
         private static UserSingletonService _instance;
         private static readonly object _lock = new object();
 
         private readonly IUserReadRepository _userReadRepository;
         private readonly UserManager<ApplicationUser> _userManager;
+        #endregion
+
+        #region Constructors
         private UserSingletonService() { }
         public UserSingletonService(IUserWriteRepository userWriteRepository,
             IHttpContextAccessor httpContextAccessor,
@@ -26,7 +29,14 @@ namespace School.Application.Service.UserService
             _userManager = userManager;
             _userReadRepository = userReadRepository;
         }
+        #endregion
 
+        #region SingleTon
+
+        /// <ملاحظة>
+        /// هذا المثال ليس واقعي وإنما محاولة محاكاة تطبيق المثال
+        /// ولان هذا التطبيق صغير لا يوجد دواعي لاستخدام الانماط
+        /// </ملاحظة>
 
         public static UserSingletonService GetInstance()
         {
@@ -42,9 +52,9 @@ namespace School.Application.Service.UserService
             }
             return _instance;
         }
+        #endregion
 
-
-
+        #region Action
         public async Task<string> AddUserAsync(ApplicationUser user, string password)
         {
 
@@ -96,5 +106,7 @@ namespace School.Application.Service.UserService
                 Task = x.Task
             }).ToListAsync();
         }
+        #endregion
+
     }
 }

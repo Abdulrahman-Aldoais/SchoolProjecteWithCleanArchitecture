@@ -1,5 +1,6 @@
 ﻿using Core.Persistence.Repositories.Interface;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Storage;
 
 namespace Core.Persistence.Repositories.Abstracts
 {
@@ -74,6 +75,36 @@ namespace Core.Persistence.Repositories.Abstracts
             Context.Entry(entity).State = EntityState.Modified;
             await Context.SaveChangesAsync();
             return entity;
+        }
+
+        public IDbContextTransaction BeginTransaction()
+        {
+            return Context.Database.BeginTransaction();
+        }
+
+        public void Commit()
+        {
+            Context.Database.CommitTransaction();
+
+        }
+
+        public void RollBack()
+        {
+            Context.Database.RollbackTransaction();
+        }
+        public async Task<IDbContextTransaction> BeginTransactionAsync()
+        {
+            return await Context.Database.BeginTransactionAsync();
+        }
+
+        public async Task CommitAsync()
+        {
+            await Context.Database.CommitTransactionAsync();
+        }
+
+        public async Task RollBackAsync()
+        {
+            await Context.Database.RollbackTransactionAsync();
         }
 
 

@@ -13,10 +13,17 @@ namespace School.Application.Features.Students.Commands.Create
 {
     public class CreateStudentCommandHandler : IRequestHandler<CreateStudentCommand, BaseCommandResponse<GetStudentOutput>>
     {
+
+
+        #region Filde
         private readonly IMapper _mapper;
         private readonly IStudentReadRepository _studentReadRepository;
         private readonly IStudentWriteRepository _studentWriteRepository;
         private readonly IHttpContextAccessor _contextAccessor;
+        public string UserId { get => _contextAccessor.HttpContext?.User?.FindFirstValue("uid"); }
+        #endregion
+
+        #region Constructores
         public CreateStudentCommandHandler(
 
             IMapper mapper,
@@ -30,8 +37,9 @@ namespace School.Application.Features.Students.Commands.Create
             _studentWriteRepository = studentWriteRepository;
             _contextAccessor = contextAccessor;
         }
-        public string UserId { get => _contextAccessor.HttpContext?.User?.FindFirstValue("uid"); }
+        #endregion
 
+        #region Handler
         public async Task<BaseCommandResponse<GetStudentOutput>> Handle(CreateStudentCommand request, CancellationToken cancellationToken)
         {
 
@@ -62,5 +70,6 @@ namespace School.Application.Features.Students.Commands.Create
             }
             return response;
         }
+        #endregion
     }
 }

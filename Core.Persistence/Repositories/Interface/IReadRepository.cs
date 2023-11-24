@@ -11,6 +11,8 @@ namespace Core.Repositories.Interface
         IQueryable<TEntity> GetAll(Expression<Func<TEntity, bool>> predicate = null);
         Task<IEnumerable<TEntity>> GetListAsync(Expression<Func<TEntity, bool>> predicate = null);
         Task<int> CountAsync();
+        IQueryable<TEntity> GetTableNoTracking();
+        IQueryable<TEntity> GetTableAsTracking();
 
     }
 }

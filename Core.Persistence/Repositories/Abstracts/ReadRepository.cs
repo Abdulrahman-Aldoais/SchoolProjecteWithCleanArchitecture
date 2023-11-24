@@ -51,6 +51,16 @@ namespace Core.Persistence.Repositories.Abstracts
                 return await Context.Set<TEntity>().Where(predicate).ToListAsync();
         }
 
+        public IQueryable<TEntity> GetTableNoTracking()
+        {
+            return Context.Set<TEntity>().AsNoTracking().AsQueryable();
+        }
+
+        public IQueryable<TEntity> GetTableAsTracking()
+        {
+            return Context.Set<TEntity>().AsQueryable();
+
+        }
 
     }
 }

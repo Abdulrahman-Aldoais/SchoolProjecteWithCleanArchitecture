@@ -7,6 +7,7 @@ namespace School.Application.Features.Students.Commands.Create
 {
     public class CreateStudentCommandHandlerValidatior : AbstractValidator<CreateStudentCommand>
     {
+
         private readonly IStudentReadRepository _studentReadRepository;
 
         public CreateStudentCommandHandlerValidatior(IStudentReadRepository studentReadRepository)

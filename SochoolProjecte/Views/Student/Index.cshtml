@@ -107,8 +107,8 @@
                 <td>@item.Age</td>
                 <td>@item.DepartmentName</td>
                 <td class="action-buttons">
-                    <a href="/student/edit/@item.Id" class="edit-button">تعديل</a>
-                    <a href="/student/delete/@item.Id" class="delete-button">حذف</a>
+                    <a asp-controller="Student" asp-action="Delete" asp-route-id="@item.Id" class="delete-button">حذف</a>
+                    <a asp-controller="Student" asp-action="Edit" asp-route-id="@item.Id" class="edit-button">تعديل</a>
                 </td>
             </tr>
         }

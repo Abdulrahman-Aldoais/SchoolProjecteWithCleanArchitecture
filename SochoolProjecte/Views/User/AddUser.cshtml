@@ -6,46 +6,45 @@
 }
 
   
-<form asp-action="AddUser" asp-controller="User" method="POST">
+<form asp-action="AddUser" asp-controller="User" method="POST" class="my-form">
     @Html.AntiForgeryToken()
     <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
-    <div>
+    <div class="form-group">
         <label for="departmentName">الاسم:</label>
-        <input type="text" asp-for="FullName" required>
+        <input type="text" asp-for="FullName" required class="form-control">
         <span class="text-danger" asp-validation-for="FullName"></span>
-
     </div>
-    <div>
+    <div class="form-group">
         <label for="Address">العنوان:</label>
-        <input type="text" asp-for="Address" required>
+        <input type="text" asp-for="Address" required class="form-control">
         <span class="text-danger" asp-validation-for="Address"></span>
     </div>
-    <div>
+    <div class="form-group">
         <label for="Email">البريد:</label>
-        <input type="text" asp-for="Email" required>
+        <input type="text" asp-for="Email" required class="form-control">
         <span class="text-danger" asp-validation-for="Email"></span>
     </div>
-    <div>
-        <label for="Email">:اسم المستخدم</label>
-        <input type="text" asp-for="UserName" required>
+    <div class="form-group">
+        <label for="UserName">اسم المستخدم:</label>
+        <input type="text" asp-for="UserName" required class="form-control">
         <span class="text-danger" asp-validation-for="UserName"></span>
     </div>
-    <div>
-        <label for="Email">:المهمة </label>
-        <input type="text" asp-for="Task" required>
+    <div class="form-group">
+        <label for="Task">المهمة:</label>
+        <input type="text" asp-for="Task" required class="form-control">
         <span class="text-danger" asp-validation-for="Task"></span>
     </div>
-    <div>
+    <div class="form-group">
         <label for="Password">كلمة المرور:</label>
-        <input type="text" asp-for="Password" required>
+        <input type="password" asp-for="Password" required class="form-control">
         <span class="text-danger" asp-validation-for="Password"></span>
     </div>
-    <div>
+    <div class="form-group">
         <label for="Country">الدولة:</label>
-        <input type="text" asp-for="Country" required>
+        <input type="text" asp-for="Country" required class="form-control">
         <span class="text-danger" asp-validation-for="Country"></span>
     </div>
-    <div>
-        <input type="submit" value="Add Department">
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary">إضافة المستخدم</button>
     </div>
 </form>

@@ -25,7 +25,6 @@ namespace School.Persistence
                 .AddDefaultTokenProviders();
 
             // Repositories
-            //services.Configure<Potions>(Configuration)
             services.AddScoped<IStudentReadRepository, StudentReadRepository>();
             services.AddScoped<IStudentWriteRepository, StudentWriteRepository>();
             services.AddScoped<IDepartmentReadRepository, DepartmentReadRepository>();
@@ -33,8 +32,6 @@ namespace School.Persistence
             services.AddScoped<IUserReadRepository, UserReadRepository>();
             services.AddScoped<IUserWriteRepository, UserWriteRepository>();
             services.AddScoped<IUserWriteRepository, UserWriteRepository>();
-
-
 
 
             return services;
