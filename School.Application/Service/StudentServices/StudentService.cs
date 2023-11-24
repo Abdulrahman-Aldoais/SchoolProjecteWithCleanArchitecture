@@ -49,6 +49,8 @@ namespace School.Application.Service.StudentServices
         public async Task<List<GetStudentListOutput>> GetAllStudentAsync()
         {
             var query = _studentReadRepository.GetAll()
+                .OrderByDescending(x => x.DateCreated)
+                .ThenByDescending(x => x.DateModified)
                 .Include(s => s.Department);
             return await query.Select(x => new GetStudentListOutput
             {

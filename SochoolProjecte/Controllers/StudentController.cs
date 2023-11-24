@@ -13,10 +13,13 @@ namespace SchoolProjecte.Controllers
 {
     public class StudentController : BaseController
     {
+        #region Filed
         private static List<GetDepartmentListOutput> _cachedDepartments;
         private static DateTime _cacheExpirationTime = DateTime.MinValue;
         private static readonly TimeSpan CacheDuration = TimeSpan.FromMinutes(30);
+        #endregion
 
+        #region Action
         public async Task<IActionResult> Index()
         {
             var getAllStudent = await Mediator.Send(new GetStudentListQuery());
@@ -111,6 +114,10 @@ namespace SchoolProjecte.Controllers
 
             return View(model);
         }
+
+
+
+
         [HttpPost, ValidateAntiForgeryToken]
 
         public async Task<IActionResult> Edit(StudentCreateViewModel model)
@@ -167,5 +174,6 @@ namespace SchoolProjecte.Controllers
             });
         }
 
+        #endregion
     }
 }

@@ -27,9 +27,7 @@ namespace School.Application
             services.AddScoped<IUserService, UserSingletonService>();
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
             services.AddSingleton<IClaimCoreService, ClaimCoreService>();
-            services.AddScoped<IUserService, UserSingletonService>(
-
-                         );
+            services.AddScoped<IUserService, UserSingletonService>();
 
             return services;
         }
