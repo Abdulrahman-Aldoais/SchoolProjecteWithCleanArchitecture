@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using School.Application.Features.Departments.Dtos.GetList;
 using School.Application.Features.Departments.Queries.GetList;
 using School.Application.Features.Students.Commands.Create;
 using School.Application.Features.Students.Commands.Delete;
@@ -12,27 +13,56 @@ namespace SchoolProjecte.Controllers
 {
     public class StudentController : BaseController
     {
+        private static List<GetDepartmentListOutput> _cachedDepartments;
+        private static DateTime _cacheExpirationTime = DateTime.MinValue;
+        private static readonly TimeSpan CacheDuration = TimeSpan.FromMinutes(30);
+
         public async Task<IActionResult> Index()
         {
             var getAllStudent = await Mediator.Send(new GetStudentListQuery());
 
             return View(getAllStudent.Data);
         }
+
+
         [HttpGet]
 
         public async Task<IActionResult> AddStudent()
         {
-            var getListDepartment = await Mediator.Send(new GetDepartmentListQuery());
+            if (_cachedDepartments == null || DateTime.UtcNow > _cacheExpirationTime)
+            {
+                var getListDepartment = await Mediator.Send(new GetDepartmentListQuery());
+                _cachedDepartments = getListDepartment.Data;
+                List<GetDepartmentListOutput> convertedDepartments = _cachedDepartments
+                    .Select(department => new GetDepartmentListOutput
+                    {
+
+                        Id = department.Id,
+                        Name = department.Name,
+                    })
+                    .ToList();
+
+                _cacheExpirationTime = DateTime.UtcNow + CacheDuration;
+
+                var model = new StudentCreateViewModel
+                {
+                    Student = new GetStudentOutput(),
+                    getListDepartment = convertedDepartments
+                };
+
+                return View(model);
+            }
 
 
-            var model = new StudentCreateViewModel
+            var cachedModel = new StudentCreateViewModel
             {
                 Student = new GetStudentOutput(),
-                getListDepartment = getListDepartment.Data
+                getListDepartment = _cachedDepartments
             };
 
-            return View(model);
+            return View(cachedModel);
         }
+
 
         [HttpPost, ValidateAntiForgeryToken]
         [Route("student/addStudent")]
@@ -56,13 +86,11 @@ namespace SchoolProjecte.Controllers
             {
 
                 NotifyError(result.Errors);
-                var getListDepartment = await Mediator.Send(new GetDepartmentListQuery());
-
 
                 var modell = new StudentCreateViewModel
                 {
                     Student = new GetStudentOutput(),
-                    getListDepartment = getListDepartment.Data
+                    getListDepartment = _cachedDepartments
                 };
 
                 return View(modell);

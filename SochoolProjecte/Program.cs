@@ -7,7 +7,8 @@ using School.Persistence.Configurations;
 var builder = WebApplication.CreateBuilder(args);
 
 
-// Add builder.Services to the container.
+//  Ê›Ì— ÿ—Ìﬁ… · ‘›Ì— Ê›ﬂ  ‘›Ì— «·»Ì«‰«  «·„Œ ·›… «· Ì  ı” Œœ„ ›Ì «·„‘—Ê⁄°
+// „À· Ã·”«  «·„” Œœ„° √Ê »Ì«‰«  «·«⁄ „«œ° √Ê √Ì »Ì«‰«   Õ «Ã ≈·Ï Õ„«Ì…
 builder.Services.AddDataProtection()
             .PersistKeysToFileSystem(new DirectoryInfo("DataEncrpytionKeys"));
 
@@ -63,6 +64,7 @@ if (!app.Environment.IsDevelopment())
     // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
+app.UseStatusCodePagesWithReExecute("/Error/{0}");
 
 
 app.UseHttpsRedirection();

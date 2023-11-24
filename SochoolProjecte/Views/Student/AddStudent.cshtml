@@ -3,33 +3,45 @@
 @{
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-<form asp-action="AddStudent" asp-controller="Student" method="POST">
+
+<form asp-action="AddStudent" asp-controller="Student" method="POST" class="mt-4">
     @Html.AntiForgeryToken()
+
     <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
-    <div>
-        <label for="departmentName">الاسم:</label>
-        <input type="text" asp-for="Student.Name" required>
-        <span class="text-danger" asp-validation-for="Student.Name"></span>
 
+    <div class="form-group row">
+        <label class="col-sm-3 col-form-label text-right" for="studentName">الاسم:</label>
+        <div class="col-sm-9">
+            <input type="text" asp-for="Student.Name" class="form-control" required>
+            <span class="text-danger" asp-validation-for="Student.Name"></span>
+        </div>
     </div>
-    <div>
-        <label for="departmentName">العمر:</label>
-        <input type="number" asp-for="Student.Age" required>
-        <span class="text-danger" asp-validation-for="Student.Age"></span>
+
+    <div class="form-group row">
+        <label class="col-sm-3 col-form-label text-right" for="studentAge">العمر:</label>
+        <div class="col-sm-9">
+            <input type="number" asp-for="Student.Age" class="form-control" required>
+            <span class="text-danger" asp-validation-for="Student.Age"></span>
+        </div>
     </div>
-    <div>
-        <label for="departmentLocation">القسم:</label>
-        <select asp-for="Student.DepartmentId" class="form-control" required>
-            <option selected="selected" value="0">اختر صنف المنشور</option>
-            @foreach (var item in Model.getListDepartment)
-            {
-                <option value="@item.Id">@item.Name</option>
-            }
-        </select>
-        <span class="text-danger" asp-validation-for="Student.DepartmentId"></span>
+
+    <div class="form-group row">
+        <label class="col-sm-3 col-form-label text-right" for="studentDepartment">القسم:</label>
+        <div class="col-sm-9">
+            <select asp-for="Student.DepartmentId" class="form-control" required>
+                <option value="">اختر صنف المنشور</option>
+                @foreach (var item in Model.getListDepartment)
+                {
+                    <option value="@item.Id">@item.Name</option>
+                }
+            </select>
+            <span class="text-danger" asp-validation-for="Student.DepartmentId"></span>
+        </div>
     </div>
-    <div>
-        <button type="submit" class="btn btn-success btn-rounded btn-lg btn-block">إضافة</button>
-</div>
+
+    <div class="form-group row">
+        <div class="col-sm-12 text-center">
+            <button type="submit" class="btn btn-primary btn-lg">إضافة</button>
+        </div>
+    </div>
 </form>
-
