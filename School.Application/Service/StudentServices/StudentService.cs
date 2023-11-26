@@ -54,8 +54,12 @@ namespace School.Application.Service.StudentServices
                 .Include(s => s.Department);
             return await query.Select(x => new GetStudentListOutput
             {
-                Id = x.Id,
-                Name = x.Name,
+                StudID = x.StudID,
+                Name = x.NameAr,
+                //NameEn = x.NameEn,
+                Address = x.Address,
+                DID = x.DID,
+                Phone = x.Phone,
                 Age = x.Age,
                 DateCreated = x.DateCreated ?? DateTime.MinValue, // Use a default value if x.Date
                 DepartmentName = x.Department.Name

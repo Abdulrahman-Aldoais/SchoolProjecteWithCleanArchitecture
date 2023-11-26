@@ -1,12 +1,15 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
 using School.Application.Features.Departments.Dtos.GetList;
 using School.Application.Features.Departments.Queries.GetList;
 using School.Application.Features.Students.Commands.Create;
 using School.Application.Features.Students.Commands.Delete;
 using School.Application.Features.Students.Commands.Update;
 using School.Application.Features.Students.Dtos.Get;
+using School.Application.Features.Students.Dtos.GetList;
 using School.Application.Features.Students.Queries.Get;
 using School.Application.Features.Students.Queries.GetList;
+using School.Domain.Entities;
 using SchoolProjecte.Models;
 
 namespace SchoolProjecte.Controllers
@@ -17,14 +20,35 @@ namespace SchoolProjecte.Controllers
         private static List<GetDepartmentListOutput> _cachedDepartments;
         private static DateTime _cacheExpirationTime = DateTime.MinValue;
         private static readonly TimeSpan CacheDuration = TimeSpan.FromMinutes(30);
+        private readonly ILogger<StudentController> _logger;
+        private readonly UserManager<ApplicationUser> userManager;
+        private readonly HttpClient _httpClient;
+        private readonly IHttpContextAccessor httpContextAccessor;
         #endregion
 
-        #region Action
-        public async Task<IActionResult> Index()
+        public StudentController(
+            ILogger<StudentController> logger,
+            UserManager<ApplicationUser> userManager,
+             HttpClient httpClient,
+             IHttpContextAccessor httpContextAccessor
+             )
         {
+            _logger = logger;
+            this.userManager = userManager;
+            //_httpClient = new HttpClient();
+            _httpClient = httpClient;
+            this.httpContextAccessor = httpContextAccessor;
+            _httpClient.BaseAddress = new Uri("https://localhost:7014/api/");
+        }
+
+        #region Action
+        public async Task<ActionResult<List<GetStudentListOutput>>> Index()
+        {
+
             var getAllStudent = await Mediator.Send(new GetStudentListQuery());
 
             return View(getAllStudent.Data);
+
         }
 
 
@@ -73,9 +97,13 @@ namespace SchoolProjecte.Controllers
         {
             var createStudentCommand = new CreateStudentCommand()
             {
+                Address = model.Student.Address,
+                DepartmentName = model.Student.DepartmentName,
+                Phone = model.Student.Phone,
                 Age = model.Student.Age,
-                Name = model.Student.Name,
-                DepartmentId = model.Student.DepartmentId,
+                NameAr = model.Student.NameAr,
+                NameEn = model.Student.NameEn,
+                DID = model.Student.DID,
             };
 
             var result = await Mediator.Send(createStudentCommand);
@@ -126,8 +154,10 @@ namespace SchoolProjecte.Controllers
             {
                 Id = model.Student.Id,
                 Age = model.Student.Age,
-                Name = model.Student.Name,
-                DepartmentId = model.Student.DepartmentId,
+                NameAr = model.Student.NameAr,
+                NameEn = model.Student.NameEn,
+                Address = model.Student.Address,
+                DID = model.Student.DID,
             };
             var response = await Mediator.Send(createStudentCommand);
             if (response.Success)

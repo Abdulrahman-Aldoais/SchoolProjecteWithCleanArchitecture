@@ -4883,6 +4883,7 @@
           "MediatR": "11.0.0",
           "MediatR.Extensions.Microsoft.DependencyInjection": "11.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.13",
+          "Newtonsoft.Json": "13.0.3",
           "School.Domain": "1.0.0",
           "School.Persistence": "1.0.0",
           "Serilog": "3.1.1"
@@ -4912,6 +4913,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1",
           "Core.Persistence": "1.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "7.0.14",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "7.0.13",

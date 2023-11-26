@@ -52,13 +52,13 @@ namespace School.Persistence.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "5f9567dc-b564-4182-8c5e-4848bee0c1e6",
+                            Id = "a7d9b2da-79ff-4254-9465-d5efcee27ef0",
                             Name = "Admin",
                             NormalizedName = "admin"
                         },
                         new
                         {
-                            Id = "70e48ffa-1dc2-4fdf-87ad-2a6e73dfab9e",
+                            Id = "a3b67212-65e3-402b-be17-e9497c8eca33",
                             Name = "Student",
                             NormalizedName = "student"
                         });
@@ -306,7 +306,7 @@ namespace School.Persistence.Migrations
                         {
                             Id = new Guid("75a6ff65-8b01-4981-9ca6-c550919d62b0"),
                             CreatedBy = "75a6ff65-8b01-4981-9ca6-c550919d62b1",
-                            DateCreated = new DateTime(2023, 11, 16, 17, 17, 36, 444, DateTimeKind.Local).AddTicks(9874),
+                            DateCreated = new DateTime(2023, 11, 27, 1, 13, 44, 821, DateTimeKind.Local).AddTicks(8400),
                             Description = "Description",
                             Name = "CS"
                         },
@@ -314,7 +314,7 @@ namespace School.Persistence.Migrations
                         {
                             Id = new Guid("75a6ff65-8b01-4981-9ca6-c550919d62b2"),
                             CreatedBy = "75a6ff65-8b01-4981-9ca6-c550919d62b1",
-                            DateCreated = new DateTime(2023, 11, 16, 17, 17, 36, 444, DateTimeKind.Local).AddTicks(9910),
+                            DateCreated = new DateTime(2023, 11, 27, 1, 13, 44, 821, DateTimeKind.Local).AddTicks(8456),
                             Description = "Description",
                             Name = "IT"
                         },
@@ -322,7 +322,7 @@ namespace School.Persistence.Migrations
                         {
                             Id = new Guid("75a6ff65-8b01-4981-9ca6-c550919d62b3"),
                             CreatedBy = "75a6ff65-8b01-4981-9ca6-c550919d62b1",
-                            DateCreated = new DateTime(2023, 11, 16, 17, 17, 36, 444, DateTimeKind.Local).AddTicks(9928),
+                            DateCreated = new DateTime(2023, 11, 27, 1, 13, 44, 821, DateTimeKind.Local).AddTicks(8477),
                             Description = "Description",
                             Name = "IS"
                         });
@@ -330,9 +330,13 @@ namespace School.Persistence.Migrations
 
             modelBuilder.Entity("School.Domain.Entities.Student", b =>
                 {
-                    b.Property<Guid>("Id")
+                    b.Property<Guid>("StudID")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("Address")
+                        .HasMaxLength(300)
+                        .HasColumnType("nvarchar(300)");
 
                     b.Property<int>("Age")
                         .HasColumnType("int");
@@ -340,50 +344,58 @@ namespace School.Persistence.Migrations
                     b.Property<string>("CreatedBy")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<Guid>("DID")
+                        .HasColumnType("uniqueidentifier");
+
                     b.Property<DateTime?>("DateCreated")
                         .HasColumnType("datetime2");
 
                     b.Property<DateTime?>("DateModified")
                         .HasColumnType("datetime2");
 
-                    b.Property<Guid>("DepartmentId")
+                    b.Property<Guid>("Id")
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("ModifiedBy")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Name")
+                    b.Property<string>("NameAr")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
 
-                    b.HasKey("Id");
+                    b.Property<string>("NameEn")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
 
-                    b.HasIndex("DepartmentId");
+                    b.Property<string>("Phone")
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.HasKey("StudID");
+
+                    b.HasIndex("DID");
 
                     b.ToTable("Students", "Identity");
 
                     b.HasData(
                         new
                         {
-                            Id = new Guid("75a6ff65-8b01-4981-9ca6-c550919d62b4"),
+                            StudID = new Guid("75a6ff65-8b01-4981-9ca6-c550919d62b4"),
+                            Address = "dsds",
                             Age = 19,
                             CreatedBy = "75a6ff65-8b01-4981-9ca6-c550919d62b1",
-                            DateCreated = new DateTime(2023, 11, 16, 17, 17, 36, 445, DateTimeKind.Local).AddTicks(8203),
-                            DepartmentId = new Guid("75a6ff65-8b01-4981-9ca6-c550919d62b0"),
-                            Name = "محمد احمد موسى"
-                        },
-                        new
-                        {
-                            Id = new Guid("75a6ff65-8b01-4981-9ca6-c550919d62b5"),
-                            Age = 0,
-                            CreatedBy = "75a6ff65-8b01-4981-9ca6-c550919d62b1",
-                            DateCreated = new DateTime(2023, 11, 16, 17, 17, 36, 445, DateTimeKind.Local).AddTicks(8236),
-                            DepartmentId = new Guid("75a6ff65-8b01-4981-9ca6-c550919d62b0"),
-                            Name = "صلاح محمود على"
+                            DID = new Guid("75a6ff65-8b01-4981-9ca6-c550919d62b0"),
+                            DateCreated = new DateTime(2023, 11, 27, 1, 13, 44, 824, DateTimeKind.Local).AddTicks(4127),
+                            Id = new Guid("00000000-0000-0000-0000-000000000000"),
+                            NameAr = "محمد احمد موسى",
+                            NameEn = "mohamed ahmed mosa",
+                            Phone = "7842345235"
                         });
                 });
 
-            modelBuilder.Entity("SchoolProject.Data.Entities.UserRefreshToken", b =>
+            modelBuilder.Entity("School.Domain.Entities.UserRefreshToken", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
@@ -476,14 +488,14 @@ namespace School.Persistence.Migrations
                 {
                     b.HasOne("School.Domain.Entities.Department", "Department")
                         .WithMany("Students")
-                        .HasForeignKey("DepartmentId")
+                        .HasForeignKey("DID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("Department");
                 });
 
-            modelBuilder.Entity("SchoolProject.Data.Entities.UserRefreshToken", b =>
+            modelBuilder.Entity("School.Domain.Entities.UserRefreshToken", b =>
                 {
                     b.HasOne("School.Domain.Entities.ApplicationUser", "user")
                         .WithMany("UserRefreshTokens")

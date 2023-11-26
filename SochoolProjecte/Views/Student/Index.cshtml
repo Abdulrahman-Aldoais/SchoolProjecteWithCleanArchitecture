@@ -94,7 +94,9 @@
     <table>
         <tr>
             <th>الرقم</th>
-            <th>الاسم</th>
+            <th>الاسم العربي</th>
+            <th>الاسم الانجليزي</th>
+            <th>العنوان</th>
             <th>العمر</th>
             <th>الصف</th>
             <th>الإجراءات</th>
@@ -102,13 +104,15 @@
         @foreach (var item in Model)
         {
             <tr>
-                <td>@item.Id</td>
+                <td>@item.StudID</td>
                 <td>@item.Name</td>
+                @*<td>@item.NameEn</td>*@
+                <td>@item.Address</td>
                 <td>@item.Age</td>
                 <td>@item.DepartmentName</td>
                 <td class="action-buttons">
-                    <a asp-controller="Student" asp-action="Delete" asp-route-id="@item.Id" class="delete-button">حذف</a>
-                    <a asp-controller="Student" asp-action="Edit" asp-route-id="@item.Id" class="edit-button">تعديل</a>
+                    <a asp-controller="Student" asp-action="Delete" asp-route-id="@item.StudID" class="delete-button">حذف</a>
+                    <a asp-controller="Student" asp-action="Edit" asp-route-id="@item.StudID" class="edit-button">تعديل</a>
                 </td>
             </tr>
         }

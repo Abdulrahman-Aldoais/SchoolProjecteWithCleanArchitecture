@@ -8,9 +8,22 @@
     @Html.AntiForgeryToken()
     <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
     <div>
-        <label for="departmentName">الاسم:</label>
-        <input type="text" asp-for="Student.Name" required>
-        <span class="text-danger" asp-validation-for="Student.Name"></span>
+        <label for="departmentNameAr">الاسم:</label>
+        <input type="text" asp-for="Student.NameAr" required>
+        <span class="text-danger" asp-validation-for="Student.NameAr"></span>
+
+    </div>
+    <div>
+        <label for="departmentNameEn"> الاسم الانجليزي:</label>
+        <input type="text" asp-for="Student.NameEn" required>
+        <span class="text-danger" asp-validation-for="Student.NameEn"></span>
+
+    </div>
+
+    <div>
+        <label for="departmentAddress"> العنوان :</label>
+        <input type="text" asp-for="Student.Address" required>
+        <span class="text-danger" asp-validation-for="Student.Address"></span>
 
     </div>
     <div>
@@ -20,14 +33,14 @@
     </div>
     <div>
         <label for="departmentLocation">القسم:</label>
-        <select asp-for="Student.DepartmentId" class="form-control" required>
+        <select asp-for="Student.DID" class="form-control" required>
             <option selected="selected" value="0">اختر صنف المنشور</option>
             @foreach (var item in Model.getListDepartment)
             {
                 <option value="@item.Id">@item.Name</option>
             }
         </select>
-        <span class="text-danger" asp-validation-for="Student.DepartmentId"></span>
+        <span class="text-danger" asp-validation-for="Student.DID"></span>
     </div>
     <div>
         <button type="submit" class="btn btn-success btn-rounded btn-lg btn-block">إضافة</button>

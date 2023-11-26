@@ -10,10 +10,18 @@
     <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
 
     <div class="form-group row">
-        <label class="col-sm-3 col-form-label text-right" for="studentName">الاسم:</label>
+        <label class="col-sm-3 col-form-label text-right" for="studentNameAr"> الاسم العربي:</label>
         <div class="col-sm-9">
-            <input type="text" asp-for="Student.Name" class="form-control" required>
-            <span class="text-danger" asp-validation-for="Student.Name"></span>
+            <input type="text" asp-for="Student.NameAr" class="form-control" required>
+            <span class="text-danger" asp-validation-for="Student.NameAr"></span>
+        </div>
+    </div>
+
+    <div class="form-group row">
+        <label class="col-sm-3 col-form-label text-right" for="studentNameEn"> الاسم الانجليزي:</label>
+        <div class="col-sm-9">
+            <input type="text" asp-for="Student.NameEn" class="form-control" required>
+            <span class="text-danger" asp-validation-for="Student.NameEn"></span>
         </div>
     </div>
 
@@ -24,18 +32,33 @@
             <span class="text-danger" asp-validation-for="Student.Age"></span>
         </div>
     </div>
+    <div class="form-group row">
+        <label class="col-sm-3 col-form-label text-right" for="studentAddress"> العنوان :</label>
+        <div class="col-sm-9">
+            <input type="text" asp-for="Student.Address" class="form-control" required>
+            <span class="text-danger" asp-validation-for="Student.Address"></span>
+        </div>
+    </div>
+
+    <div class="form-group row">
+        <label class="col-sm-3 col-form-label text-right" for="studentDepartmentName"> اسم القسم :</label>
+        <div class="col-sm-9">
+            <input type="text" asp-for="Student.DepartmentName" class="form-control" required>
+            <span class="text-danger" asp-validation-for="Student.DepartmentName"></span>
+        </div>
+    </div>
 
     <div class="form-group row">
         <label class="col-sm-3 col-form-label text-right" for="studentDepartment">القسم:</label>
         <div class="col-sm-9">
-            <select asp-for="Student.DepartmentId" class="form-control" required>
+            <select asp-for="Student.DID" class="form-control" required>
                 <option value="">اختر صنف المنشور</option>
                 @foreach (var item in Model.getListDepartment)
                 {
                     <option value="@item.Id">@item.Name</option>
                 }
             </select>
-            <span class="text-danger" asp-validation-for="Student.DepartmentId"></span>
+            <span class="text-danger" asp-validation-for="Student.DID"></span>
         </div>
     </div>
 

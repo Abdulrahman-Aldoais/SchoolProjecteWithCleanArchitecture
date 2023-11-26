@@ -22,12 +22,12 @@ builder.Services.Configure<CookiePolicyOptions>(options =>
 //AddApplicationServices
 builder.Services.AddApplicationServices();
 builder.Services.AddPersistenceServices();
-//builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
-builder.Services.AddHttpContextAccessor();
 // Add services to the container.
 builder.Services.AddLocalization();
 builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation().AddViewLocalization();
-
+builder.Services.AddHttpContextAccessor();
+//services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+builder.Services.AddHttpClient();
 
 // Authentication
 builder.Services.AddAuthentication(options =>
