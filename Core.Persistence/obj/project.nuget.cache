@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bhtMjWl4RfPb7KOAt4WWnnXKGaFhfyKU4kGhEXdU9Q6U0JI/6hiuqiXgLL5uy6otIOXM+O0Wk6520IojH+k9kA==",
+  "dgSpecHash": "cViTbIboyGGr/QvnVBvjHLhMJVI60Dkr+GCKC4IdEHkT2Cf/z1fkCsPMSVu2IhTacSAriBpDqzmidT0/EAMePQ==",
   "success": true,
-  "projectFilePath": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\Core.Persistence\\Core.Persistence.csproj",
+  "projectFilePath": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\Core.Persistence\\Core.Persistence.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\APS\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Users\\APS\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

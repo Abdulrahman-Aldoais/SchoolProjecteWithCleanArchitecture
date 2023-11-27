@@ -28,17 +28,13 @@ namespace SchoolProjecte.Controllers
 
         public StudentController(
             ILogger<StudentController> logger,
-            UserManager<ApplicationUser> userManager,
-             HttpClient httpClient,
-             IHttpContextAccessor httpContextAccessor
+            UserManager<ApplicationUser> userManager
+
              )
         {
             _logger = logger;
             this.userManager = userManager;
-            //_httpClient = new HttpClient();
-            _httpClient = httpClient;
-            this.httpContextAccessor = httpContextAccessor;
-            _httpClient.BaseAddress = new Uri("https://localhost:7014/api/");
+
         }
 
         #region Action
@@ -64,8 +60,8 @@ namespace SchoolProjecte.Controllers
                     .Select(department => new GetDepartmentListOutput
                     {
 
-                        Id = department.Id,
-                        Name = department.Name,
+                        DID = department.DID,
+                        DNameAr = department.DNameAr,
                     })
                     .ToList();
 
@@ -100,11 +96,11 @@ namespace SchoolProjecte.Controllers
                 Address = model.Student.Address,
                 DepartmentName = model.Student.DepartmentName,
                 Phone = model.Student.Phone,
-                Age = model.Student.Age,
                 NameAr = model.Student.NameAr,
                 NameEn = model.Student.NameEn,
                 DID = model.Student.DID,
             };
+
 
             var result = await Mediator.Send(createStudentCommand);
 
@@ -127,6 +123,85 @@ namespace SchoolProjecte.Controllers
                 return View(modell);
             }
         }
+
+        //[HttpGet]
+
+        //public async Task<IActionResult> AddStudent()
+        //{
+        //    if (_cachedDepartments == null || DateTime.UtcNow > _cacheExpirationTime)
+        //    {
+        //        var getListDepartment = await Mediator.Send(new GetDepartmentListQuery());
+        //        _cachedDepartments = getListDepartment.Data;
+        //        List<GetDepartmentListOutput> convertedDepartments = _cachedDepartments
+        //            .Select(department => new GetDepartmentListOutput
+        //            {
+
+        //                Id = department.Id,
+        //                Name = department.Name,
+        //            })
+        //            .ToList();
+
+        //        _cacheExpirationTime = DateTime.UtcNow + CacheDuration;
+
+        //        var model = new StudentCreateViewModel
+        //        {
+        //            Student = new GetStudentOutput(),
+        //            getListDepartment = convertedDepartments
+        //        };
+
+        //        return View(model);
+        //    }
+
+
+        //    var cachedModel = new StudentCreateViewModel
+        //    {
+        //        Student = new GetStudentOutput(),
+        //        getListDepartment = _cachedDepartments
+        //    };
+
+        //    return View(cachedModel);
+        //}
+
+
+        //[HttpPost, ValidateAntiForgeryToken]
+        //[Route("student/addStudent")]
+        //public async Task<IActionResult> AddStudent(StudentCreateViewModel model)
+        //{
+        //    var createStudentCommand = new CreateStudentCommand()
+        //    {
+        //        Address = model.Student.Address,
+        //        DepartmentName = model.Student.DepartmentName,
+        //        Phone = model.Student.Phone,
+        //        Age = model.Student.Age,
+        //        NameAr = model.Student.NameAr,
+        //        NameEn = model.Student.NameEn,
+        //        DID = model.Student.DID,
+        //    };
+
+        //    var result = await Mediator.Send(createStudentCommand);
+
+        //    if (result.Success)
+        //    {
+        //        NotifySuccess(result.Message);
+        //        return RedirectToAction("Index", "Student");
+        //    }
+        //    else
+        //    {
+
+        //        NotifyError(result.Errors);
+
+        //        var modell = new StudentCreateViewModel
+        //        {
+        //            Student = new GetStudentOutput(),
+        //            getListDepartment = _cachedDepartments
+        //        };
+
+        //        return View(modell);
+        //    }
+        //}
+
+
+
         [HttpGet]
         public async Task<IActionResult> Edit(GetStudentQuery getStudent)
         {
@@ -152,8 +227,8 @@ namespace SchoolProjecte.Controllers
         {
             var createStudentCommand = new UpdateStudentCommand()
             {
-                Id = model.Student.Id,
-                Age = model.Student.Age,
+                Id = model.Student.StudID,
+                //Age = model.Student.Age,
                 NameAr = model.Student.NameAr,
                 NameEn = model.Student.NameEn,
                 Address = model.Student.Address,

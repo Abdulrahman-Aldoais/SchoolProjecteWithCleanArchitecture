@@ -8,6 +8,8 @@ using School.Application.Features.Students.Dtos.Get;
 using School.Domain.Entities;
 using School.Persistence.Repositories.StudentRepository;
 using System.Security.Claims;
+using System.Text;
+using System.Text.Json;
 
 namespace School.Application.Features.Students.Commands.Create
 {
@@ -20,6 +22,7 @@ namespace School.Application.Features.Students.Commands.Create
         private readonly IStudentReadRepository _studentReadRepository;
         private readonly IStudentWriteRepository _studentWriteRepository;
         private readonly IHttpContextAccessor _contextAccessor;
+        private readonly HttpClient _httpClient;
         public string UserId { get => _contextAccessor.HttpContext?.User?.FindFirstValue("uid"); }
         #endregion
 
@@ -29,13 +32,16 @@ namespace School.Application.Features.Students.Commands.Create
             IMapper mapper,
             IStudentReadRepository studentReadRepository,
             IStudentWriteRepository studentWriteRepository,
-            IHttpContextAccessor contextAccessor
+            IHttpContextAccessor contextAccessor,
+            HttpClient httpClient
+
             )
         {
             _mapper = mapper;
             _studentReadRepository = studentReadRepository;
             _studentWriteRepository = studentWriteRepository;
             _contextAccessor = contextAccessor;
+            _httpClient = httpClient;
         }
         #endregion
 
@@ -59,15 +65,30 @@ namespace School.Application.Features.Students.Commands.Create
 
                 var studentMapp = _mapper.Map<Student>(request);
                 studentMapp.CreatedBy = UserId;
-                var result = await _studentWriteRepository.AddAsync(studentMapp);
-                var resultMapp = _mapper.Map<GetStudentOutput>(result);
+                string data = JsonSerializer.Serialize(studentMapp);
 
-                response.Id = resultMapp.Id;
-                response.Data = resultMapp;
-                response.Success = true;
-                response.Message = DepartmentMessages.CreatedSuccess;
-                response.Errors = null;
+                StringContent content = new StringContent(data, Encoding.UTF8, "application/json");
+                HttpResponseMessage responseAddStudent = await _httpClient.PostAsync("https://localhost:7014/api/Student/Api/v1/Student/Create", content);
+
+                if (responseAddStudent.IsSuccessStatusCode)
+                {
+                    var responseData = await responseAddStudent.Content.ReadAsStringAsync();
+                    var studentOutput = JsonSerializer.Deserialize<GetStudentOutput>(responseData);
+
+                    response.Id = studentOutput.StudID;
+                    response.Data = studentOutput;
+                    response.Success = true;
+                    response.Message = DepartmentMessages.CreatedSuccess;
+                    response.Errors = null;
+                }
+                else
+                {
+                    response.Success = false;
+                    response.Message = "Failed to create student";
+                    response.Errors = new List<string> { "Error in API call" }; // تعيين رسالة الخطأ حسب احتياجاتك
+                }
             }
+
             return response;
         }
         #endregion

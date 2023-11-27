@@ -40,7 +40,7 @@ namespace School.Application.Features.Students.Queries.Get
                 var result = await _studentService.GetStudentByIDWithIncludeAsync(request.Id);
                 var resultMapp = _mapper.Map<GetStudentOutput>(result);
 
-                response.Id = resultMapp.Id;
+                response.Id = resultMapp.StudID;
                 response.Data = resultMapp;
                 response.Success = true;
                 response.Message = StudentMessages.GetByIdExists;

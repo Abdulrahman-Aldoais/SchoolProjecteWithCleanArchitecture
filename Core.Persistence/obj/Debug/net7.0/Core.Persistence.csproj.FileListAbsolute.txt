@@ -28,3 +28,18 @@ E:\My_GitHub\SchoolProjecteWithCleanArchitecture\Core.Persistence\obj\Debug\net7
 E:\My_GitHub\SchoolProjecteWithCleanArchitecture\Core.Persistence\obj\Debug\net7.0\refint\Core.Persistence.dll
 E:\My_GitHub\SchoolProjecteWithCleanArchitecture\Core.Persistence\obj\Debug\net7.0\Core.Persistence.pdb
 E:\My_GitHub\SchoolProjecteWithCleanArchitecture\Core.Persistence\obj\Debug\net7.0\ref\Core.Persistence.dll
+E:\My_GitHub\tow project API and UI\SchoolProjecteWithCleanArchitecture\Core.Persistence\bin\Debug\net7.0\Core.Persistence.deps.json
+E:\My_GitHub\tow project API and UI\SchoolProjecteWithCleanArchitecture\Core.Persistence\bin\Debug\net7.0\Core.Persistence.dll
+E:\My_GitHub\tow project API and UI\SchoolProjecteWithCleanArchitecture\Core.Persistence\bin\Debug\net7.0\Core.Persistence.pdb
+E:\My_GitHub\tow project API and UI\SchoolProjecteWithCleanArchitecture\Core.Persistence\bin\Debug\net7.0\School.Domain.dll
+E:\My_GitHub\tow project API and UI\SchoolProjecteWithCleanArchitecture\Core.Persistence\bin\Debug\net7.0\School.Domain.pdb
+E:\My_GitHub\tow project API and UI\SchoolProjecteWithCleanArchitecture\Core.Persistence\obj\Debug\net7.0\Core.Persistence.csproj.AssemblyReference.cache
+E:\My_GitHub\tow project API and UI\SchoolProjecteWithCleanArchitecture\Core.Persistence\obj\Debug\net7.0\Core.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+E:\My_GitHub\tow project API and UI\SchoolProjecteWithCleanArchitecture\Core.Persistence\obj\Debug\net7.0\Core.Persistence.AssemblyInfoInputs.cache
+E:\My_GitHub\tow project API and UI\SchoolProjecteWithCleanArchitecture\Core.Persistence\obj\Debug\net7.0\Core.Persistence.AssemblyInfo.cs
+E:\My_GitHub\tow project API and UI\SchoolProjecteWithCleanArchitecture\Core.Persistence\obj\Debug\net7.0\Core.Persistence.csproj.CoreCompileInputs.cache
+E:\My_GitHub\tow project API and UI\SchoolProjecteWithCleanArchitecture\Core.Persistence\obj\Debug\net7.0\Core.Persistence.csproj.CopyComplete
+E:\My_GitHub\tow project API and UI\SchoolProjecteWithCleanArchitecture\Core.Persistence\obj\Debug\net7.0\Core.Persistence.dll
+E:\My_GitHub\tow project API and UI\SchoolProjecteWithCleanArchitecture\Core.Persistence\obj\Debug\net7.0\refint\Core.Persistence.dll
+E:\My_GitHub\tow project API and UI\SchoolProjecteWithCleanArchitecture\Core.Persistence\obj\Debug\net7.0\Core.Persistence.pdb
+E:\My_GitHub\tow project API and UI\SchoolProjecteWithCleanArchitecture\Core.Persistence\obj\Debug\net7.0\ref\Core.Persistence.dll

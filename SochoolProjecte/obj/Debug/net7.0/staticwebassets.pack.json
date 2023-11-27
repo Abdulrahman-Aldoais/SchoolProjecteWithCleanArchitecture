@@ -1,1043 +1,1043 @@
 {
   "Files": [
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\SchoolProjecte.bundle.scp.css",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\SchoolProjecte.bundle.scp.css",
       "PackagePath": "staticwebassets\\SchoolProjecte.bundle.scp.css"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\css\\site.css",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\favicon.ico",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\js\\site.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\extended-ui-sweetalert2.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\extended-ui-sweetalert2.js",
       "PackagePath": "staticwebassets\\lib\\extended-ui-sweetalert2.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\sweetalert2\\sweetalert2.css",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\sweetalert2\\sweetalert2.css",
       "PackagePath": "staticwebassets\\lib\\sweetalert2\\sweetalert2.css"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\sweetalert2\\sweetalert2.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\lib\\sweetalert2\\sweetalert2.js",
       "PackagePath": "staticwebassets\\lib\\sweetalert2\\sweetalert2.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\limonte-sweetalert2\\sweetalert2.all.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\limonte-sweetalert2\\sweetalert2.all.js",
       "PackagePath": "staticwebassets\\limonte-sweetalert2\\sweetalert2.all.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\limonte-sweetalert2\\sweetalert2.all.min.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\limonte-sweetalert2\\sweetalert2.all.min.js",
       "PackagePath": "staticwebassets\\limonte-sweetalert2\\sweetalert2.all.min.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\limonte-sweetalert2\\sweetalert2.css",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\limonte-sweetalert2\\sweetalert2.css",
       "PackagePath": "staticwebassets\\limonte-sweetalert2\\sweetalert2.css"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\limonte-sweetalert2\\sweetalert2.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\limonte-sweetalert2\\sweetalert2.js",
       "PackagePath": "staticwebassets\\limonte-sweetalert2\\sweetalert2.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\limonte-sweetalert2\\sweetalert2.min.css",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\limonte-sweetalert2\\sweetalert2.min.css",
       "PackagePath": "staticwebassets\\limonte-sweetalert2\\sweetalert2.min.css"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\limonte-sweetalert2\\sweetalert2.min.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\limonte-sweetalert2\\sweetalert2.min.js",
       "PackagePath": "staticwebassets\\limonte-sweetalert2\\sweetalert2.min.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\css\\select2.css",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\css\\select2.css",
       "PackagePath": "staticwebassets\\select2\\dist\\css\\select2.css"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\css\\select2.min.css",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\css\\select2.min.css",
       "PackagePath": "staticwebassets\\select2\\dist\\css\\select2.min.css"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\af.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\af.js",
       "PackagePath": "staticwebassets\\select2\\dist\\js\\i18n\\af.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\ar.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\ar.js",
       "PackagePath": "staticwebassets\\select2\\dist\\js\\i18n\\ar.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\az.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\az.js",
       "PackagePath": "staticwebassets\\select2\\dist\\js\\i18n\\az.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\bg.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\bg.js",
       "PackagePath": "staticwebassets\\select2\\dist\\js\\i18n\\bg.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\bn.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\bn.js",
       "PackagePath": "staticwebassets\\select2\\dist\\js\\i18n\\bn.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\bs.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\bs.js",
       "PackagePath": "staticwebassets\\select2\\dist\\js\\i18n\\bs.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\build.txt",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\build.txt",
       "PackagePath": "staticwebassets\\select2\\dist\\js\\i18n\\build.txt"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\ca.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\ca.js",
       "PackagePath": "staticwebassets\\select2\\dist\\js\\i18n\\ca.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\cs.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\cs.js",
       "PackagePath": "staticwebassets\\select2\\dist\\js\\i18n\\cs.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\da.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\da.js",
       "PackagePath": "staticwebassets\\select2\\dist\\js\\i18n\\da.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\de.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\de.js",
       "PackagePath": "staticwebassets\\select2\\dist\\js\\i18n\\de.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\dsb.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\dsb.js",
       "PackagePath": "staticwebassets\\select2\\dist\\js\\i18n\\dsb.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\el.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\el.js",
       "PackagePath": "staticwebassets\\select2\\dist\\js\\i18n\\el.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\en.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\en.js",
       "PackagePath": "staticwebassets\\select2\\dist\\js\\i18n\\en.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\eo.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\eo.js",
       "PackagePath": "staticwebassets\\select2\\dist\\js\\i18n\\eo.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\es.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\es.js",
       "PackagePath": "staticwebassets\\select2\\dist\\js\\i18n\\es.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\et.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\et.js",
       "PackagePath": "staticwebassets\\select2\\dist\\js\\i18n\\et.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\eu.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\eu.js",
       "PackagePath": "staticwebassets\\select2\\dist\\js\\i18n\\eu.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\fa.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\fa.js",
       "PackagePath": "staticwebassets\\select2\\dist\\js\\i18n\\fa.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\fi.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\fi.js",
       "PackagePath": "staticwebassets\\select2\\dist\\js\\i18n\\fi.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\fr.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\fr.js",
       "PackagePath": "staticwebassets\\select2\\dist\\js\\i18n\\fr.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\gl.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\gl.js",
       "PackagePath": "staticwebassets\\select2\\dist\\js\\i18n\\gl.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\he.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\he.js",
       "PackagePath": "staticwebassets\\select2\\dist\\js\\i18n\\he.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\hi.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\hi.js",
       "PackagePath": "staticwebassets\\select2\\dist\\js\\i18n\\hi.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\hr.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\hr.js",
       "PackagePath": "staticwebassets\\select2\\dist\\js\\i18n\\hr.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\hsb.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\hsb.js",
       "PackagePath": "staticwebassets\\select2\\dist\\js\\i18n\\hsb.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\hu.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\hu.js",
       "PackagePath": "staticwebassets\\select2\\dist\\js\\i18n\\hu.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\hy.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\hy.js",
       "PackagePath": "staticwebassets\\select2\\dist\\js\\i18n\\hy.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\id.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\id.js",
       "PackagePath": "staticwebassets\\select2\\dist\\js\\i18n\\id.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\is.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\is.js",
       "PackagePath": "staticwebassets\\select2\\dist\\js\\i18n\\is.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\it.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\it.js",
       "PackagePath": "staticwebassets\\select2\\dist\\js\\i18n\\it.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\ja.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\ja.js",
       "PackagePath": "staticwebassets\\select2\\dist\\js\\i18n\\ja.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\ka.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\ka.js",
       "PackagePath": "staticwebassets\\select2\\dist\\js\\i18n\\ka.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\km.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\km.js",
       "PackagePath": "staticwebassets\\select2\\dist\\js\\i18n\\km.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\ko.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\ko.js",
       "PackagePath": "staticwebassets\\select2\\dist\\js\\i18n\\ko.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\lt.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\lt.js",
       "PackagePath": "staticwebassets\\select2\\dist\\js\\i18n\\lt.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\lv.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\lv.js",
       "PackagePath": "staticwebassets\\select2\\dist\\js\\i18n\\lv.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\mk.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\mk.js",
       "PackagePath": "staticwebassets\\select2\\dist\\js\\i18n\\mk.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\ms.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\ms.js",
       "PackagePath": "staticwebassets\\select2\\dist\\js\\i18n\\ms.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\nb.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\nb.js",
       "PackagePath": "staticwebassets\\select2\\dist\\js\\i18n\\nb.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\ne.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\ne.js",
       "PackagePath": "staticwebassets\\select2\\dist\\js\\i18n\\ne.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\nl.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\nl.js",
       "PackagePath": "staticwebassets\\select2\\dist\\js\\i18n\\nl.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\pa.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\pa.js",
       "PackagePath": "staticwebassets\\select2\\dist\\js\\i18n\\pa.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\pl.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\pl.js",
       "PackagePath": "staticwebassets\\select2\\dist\\js\\i18n\\pl.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\ps.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\ps.js",
       "PackagePath": "staticwebassets\\select2\\dist\\js\\i18n\\ps.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\pt-BR.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\pt-BR.js",
       "PackagePath": "staticwebassets\\select2\\dist\\js\\i18n\\pt-BR.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\pt.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\pt.js",
       "PackagePath": "staticwebassets\\select2\\dist\\js\\i18n\\pt.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\ro.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\ro.js",
       "PackagePath": "staticwebassets\\select2\\dist\\js\\i18n\\ro.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\ru.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\ru.js",
       "PackagePath": "staticwebassets\\select2\\dist\\js\\i18n\\ru.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\sk.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\sk.js",
       "PackagePath": "staticwebassets\\select2\\dist\\js\\i18n\\sk.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\sl.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\sl.js",
       "PackagePath": "staticwebassets\\select2\\dist\\js\\i18n\\sl.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\sq.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\sq.js",
       "PackagePath": "staticwebassets\\select2\\dist\\js\\i18n\\sq.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\sr-Cyrl.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\sr-Cyrl.js",
       "PackagePath": "staticwebassets\\select2\\dist\\js\\i18n\\sr-Cyrl.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\sr.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\sr.js",
       "PackagePath": "staticwebassets\\select2\\dist\\js\\i18n\\sr.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\sv.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\sv.js",
       "PackagePath": "staticwebassets\\select2\\dist\\js\\i18n\\sv.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\te.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\te.js",
       "PackagePath": "staticwebassets\\select2\\dist\\js\\i18n\\te.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\th.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\th.js",
       "PackagePath": "staticwebassets\\select2\\dist\\js\\i18n\\th.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\tk.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\tk.js",
       "PackagePath": "staticwebassets\\select2\\dist\\js\\i18n\\tk.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\tr.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\tr.js",
       "PackagePath": "staticwebassets\\select2\\dist\\js\\i18n\\tr.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\uk.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\uk.js",
       "PackagePath": "staticwebassets\\select2\\dist\\js\\i18n\\uk.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\vi.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\vi.js",
       "PackagePath": "staticwebassets\\select2\\dist\\js\\i18n\\vi.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\zh-CN.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\zh-CN.js",
       "PackagePath": "staticwebassets\\select2\\dist\\js\\i18n\\zh-CN.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\zh-TW.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\i18n\\zh-TW.js",
       "PackagePath": "staticwebassets\\select2\\dist\\js\\i18n\\zh-TW.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\select2.full.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\select2.full.js",
       "PackagePath": "staticwebassets\\select2\\dist\\js\\select2.full.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\select2.full.min.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\select2.full.min.js",
       "PackagePath": "staticwebassets\\select2\\dist\\js\\select2.full.min.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\select2.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\select2.js",
       "PackagePath": "staticwebassets\\select2\\dist\\js\\select2.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\select2.min.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\dist\\js\\select2.min.js",
       "PackagePath": "staticwebassets\\select2\\dist\\js\\select2.min.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\banner.end.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\banner.end.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\banner.end.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\banner.start.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\banner.start.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\banner.start.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\jquery.mousewheel.shim.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\jquery.mousewheel.shim.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\jquery.mousewheel.shim.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\jquery.select2.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\jquery.select2.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\jquery.select2.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\jquery.shim.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\jquery.shim.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\jquery.shim.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\core.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\core.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\core.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\data\\ajax.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\data\\ajax.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\data\\ajax.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\data\\array.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\data\\array.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\data\\array.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\data\\base.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\data\\base.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\data\\base.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\data\\maximumInputLength.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\data\\maximumInputLength.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\data\\maximumInputLength.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\data\\maximumSelectionLength.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\data\\maximumSelectionLength.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\data\\maximumSelectionLength.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\data\\minimumInputLength.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\data\\minimumInputLength.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\data\\minimumInputLength.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\data\\select.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\data\\select.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\data\\select.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\data\\tags.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\data\\tags.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\data\\tags.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\data\\tokenizer.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\data\\tokenizer.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\data\\tokenizer.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\defaults.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\defaults.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\defaults.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\diacritics.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\diacritics.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\diacritics.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\dropdown.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\dropdown.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\dropdown.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\dropdown\\attachBody.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\dropdown\\attachBody.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\dropdown\\attachBody.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\dropdown\\attachContainer.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\dropdown\\attachContainer.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\dropdown\\attachContainer.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\dropdown\\closeOnSelect.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\dropdown\\closeOnSelect.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\dropdown\\closeOnSelect.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\dropdown\\dropdownCss.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\dropdown\\dropdownCss.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\dropdown\\dropdownCss.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\dropdown\\hidePlaceholder.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\dropdown\\hidePlaceholder.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\dropdown\\hidePlaceholder.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\dropdown\\infiniteScroll.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\dropdown\\infiniteScroll.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\dropdown\\infiniteScroll.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\dropdown\\minimumResultsForSearch.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\dropdown\\minimumResultsForSearch.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\dropdown\\minimumResultsForSearch.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\dropdown\\search.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\dropdown\\search.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\dropdown\\search.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\dropdown\\selectOnClose.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\dropdown\\selectOnClose.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\dropdown\\selectOnClose.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\dropdown\\stopPropagation.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\dropdown\\stopPropagation.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\dropdown\\stopPropagation.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\dropdown\\tagsSearchHighlight.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\dropdown\\tagsSearchHighlight.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\dropdown\\tagsSearchHighlight.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\af.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\af.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\i18n\\af.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\ar.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\ar.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\i18n\\ar.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\az.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\az.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\i18n\\az.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\bg.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\bg.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\i18n\\bg.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\bn.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\bn.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\i18n\\bn.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\bs.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\bs.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\i18n\\bs.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\ca.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\ca.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\i18n\\ca.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\cs.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\cs.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\i18n\\cs.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\da.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\da.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\i18n\\da.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\de.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\de.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\i18n\\de.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\dsb.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\dsb.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\i18n\\dsb.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\el.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\el.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\i18n\\el.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\en.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\en.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\i18n\\en.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\eo.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\eo.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\i18n\\eo.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\es.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\es.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\i18n\\es.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\et.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\et.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\i18n\\et.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\eu.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\eu.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\i18n\\eu.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\fa.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\fa.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\i18n\\fa.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\fi.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\fi.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\i18n\\fi.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\fr.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\fr.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\i18n\\fr.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\gl.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\gl.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\i18n\\gl.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\he.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\he.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\i18n\\he.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\hi.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\hi.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\i18n\\hi.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\hr.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\hr.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\i18n\\hr.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\hsb.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\hsb.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\i18n\\hsb.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\hu.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\hu.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\i18n\\hu.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\hy.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\hy.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\i18n\\hy.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\id.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\id.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\i18n\\id.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\is.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\is.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\i18n\\is.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\it.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\it.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\i18n\\it.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\ja.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\ja.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\i18n\\ja.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\ka.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\ka.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\i18n\\ka.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\km.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\km.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\i18n\\km.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\ko.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\ko.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\i18n\\ko.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\lt.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\lt.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\i18n\\lt.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\lv.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\lv.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\i18n\\lv.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\mk.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\mk.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\i18n\\mk.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\ms.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\ms.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\i18n\\ms.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\nb.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\nb.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\i18n\\nb.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\ne.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\ne.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\i18n\\ne.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\nl.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\nl.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\i18n\\nl.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\pa.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\pa.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\i18n\\pa.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\pl.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\pl.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\i18n\\pl.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\ps.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\ps.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\i18n\\ps.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\pt-BR.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\pt-BR.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\i18n\\pt-BR.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\pt.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\pt.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\i18n\\pt.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\ro.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\ro.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\i18n\\ro.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\ru.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\ru.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\i18n\\ru.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\sk.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\sk.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\i18n\\sk.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\sl.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\sl.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\i18n\\sl.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\sq.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\sq.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\i18n\\sq.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\sr-Cyrl.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\sr-Cyrl.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\i18n\\sr-Cyrl.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\sr.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\sr.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\i18n\\sr.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\sv.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\sv.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\i18n\\sv.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\te.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\te.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\i18n\\te.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\th.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\th.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\i18n\\th.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\tk.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\tk.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\i18n\\tk.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\tr.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\tr.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\i18n\\tr.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\uk.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\uk.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\i18n\\uk.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\vi.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\vi.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\i18n\\vi.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\zh-CN.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\zh-CN.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\i18n\\zh-CN.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\zh-TW.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\i18n\\zh-TW.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\i18n\\zh-TW.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\keys.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\keys.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\keys.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\options.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\options.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\options.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\results.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\results.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\results.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\selection\\allowClear.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\selection\\allowClear.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\selection\\allowClear.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\selection\\base.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\selection\\base.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\selection\\base.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\selection\\clickMask.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\selection\\clickMask.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\selection\\clickMask.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\selection\\eventRelay.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\selection\\eventRelay.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\selection\\eventRelay.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\selection\\multiple.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\selection\\multiple.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\selection\\multiple.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\selection\\placeholder.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\selection\\placeholder.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\selection\\placeholder.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\selection\\search.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\selection\\search.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\selection\\search.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\selection\\selectionCss.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\selection\\selectionCss.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\selection\\selectionCss.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\selection\\single.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\selection\\single.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\selection\\single.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\selection\\stopPropagation.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\selection\\stopPropagation.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\selection\\stopPropagation.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\translation.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\translation.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\translation.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\utils.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\select2\\utils.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\select2\\utils.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\wrapper.end.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\wrapper.end.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\wrapper.end.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\wrapper.start.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\js\\wrapper.start.js",
       "PackagePath": "staticwebassets\\select2\\src\\js\\wrapper.start.js"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\scss\\_dropdown.scss",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\scss\\_dropdown.scss",
       "PackagePath": "staticwebassets\\select2\\src\\scss\\_dropdown.scss"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\scss\\_multiple.scss",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\scss\\_multiple.scss",
       "PackagePath": "staticwebassets\\select2\\src\\scss\\_multiple.scss"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\scss\\_single.scss",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\scss\\_single.scss",
       "PackagePath": "staticwebassets\\select2\\src\\scss\\_single.scss"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\scss\\core.scss",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\scss\\core.scss",
       "PackagePath": "staticwebassets\\select2\\src\\scss\\core.scss"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\scss\\mixins\\_gradients.scss",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\scss\\mixins\\_gradients.scss",
       "PackagePath": "staticwebassets\\select2\\src\\scss\\mixins\\_gradients.scss"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\scss\\theme\\classic\\_defaults.scss",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\scss\\theme\\classic\\_defaults.scss",
       "PackagePath": "staticwebassets\\select2\\src\\scss\\theme\\classic\\_defaults.scss"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\scss\\theme\\classic\\_multiple.scss",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\scss\\theme\\classic\\_multiple.scss",
       "PackagePath": "staticwebassets\\select2\\src\\scss\\theme\\classic\\_multiple.scss"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\scss\\theme\\classic\\_single.scss",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\scss\\theme\\classic\\_single.scss",
       "PackagePath": "staticwebassets\\select2\\src\\scss\\theme\\classic\\_single.scss"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\scss\\theme\\classic\\layout.scss",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\scss\\theme\\classic\\layout.scss",
       "PackagePath": "staticwebassets\\select2\\src\\scss\\theme\\classic\\layout.scss"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\scss\\theme\\default\\_multiple.scss",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\scss\\theme\\default\\_multiple.scss",
       "PackagePath": "staticwebassets\\select2\\src\\scss\\theme\\default\\_multiple.scss"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\scss\\theme\\default\\_single.scss",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\scss\\theme\\default\\_single.scss",
       "PackagePath": "staticwebassets\\select2\\src\\scss\\theme\\default\\_single.scss"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\scss\\theme\\default\\layout.scss",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\select2\\src\\scss\\theme\\default\\layout.scss",
       "PackagePath": "staticwebassets\\select2\\src\\scss\\theme\\default\\layout.scss"
     },
     {
-      "Id": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\sweet-alert2\\sweetalert2@9.js",
+      "Id": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\SochoolProjecte\\wwwroot\\sweet-alert2\\sweetalert2@9.js",
       "PackagePath": "staticwebassets\\sweet-alert2\\sweetalert2@9.js"
     },
     {

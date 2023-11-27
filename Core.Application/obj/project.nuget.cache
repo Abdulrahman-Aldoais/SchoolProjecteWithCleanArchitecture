@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ufpg0iFOHlZmlywsxy03BHLPpVR20DygwEmFnh8vsl5f0hwisQQblHDmsytM1jYGOXP6FcxUnDENl2Q+JvsNmA==",
+  "dgSpecHash": "p9i39vP5I4RHV5KNX/5EkxOi2gYOpTx+Mg1C/jzH+Y0bGdNICHbmCwGErOxl/Y9R6gWeR2jlG6qHTxSorZ2eiA==",
   "success": true,
-  "projectFilePath": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\Core.Application\\Core.Application.csproj",
+  "projectFilePath": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\Core.Application\\Core.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\APS\\.nuget\\packages\\bcrypt\\1.0.0\\bcrypt.1.0.0.nupkg.sha512",
     "C:\\Users\\APS\\.nuget\\packages\\fluentvalidation\\11.8.0\\fluentvalidation.11.8.0.nupkg.sha512",

@@ -3979,11 +3979,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\School.Persistence\\School.Persistence.csproj",
+      "projectUniqueName": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\School.Persistence\\School.Persistence.csproj",
       "projectName": "School.Persistence",
-      "projectPath": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\School.Persistence\\School.Persistence.csproj",
+      "projectPath": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\School.Persistence\\School.Persistence.csproj",
       "packagesPath": "C:\\Users\\APS\\.nuget\\packages\\",
-      "outputPath": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\School.Persistence\\obj\\",
+      "outputPath": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\School.Persistence\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\APS\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4000,11 +4000,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\Core.Persistence\\Core.Persistence.csproj": {
-              "projectPath": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\Core.Persistence\\Core.Persistence.csproj"
+            "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\Core.Persistence\\Core.Persistence.csproj": {
+              "projectPath": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\Core.Persistence\\Core.Persistence.csproj"
             },
-            "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\School.Domain\\School.Domain.csproj": {
-              "projectPath": "E:\\My_GitHub\\SchoolProjecteWithCleanArchitecture\\School.Domain\\School.Domain.csproj"
+            "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\School.Domain\\School.Domain.csproj": {
+              "projectPath": "E:\\My_GitHub\\tow project API and UI\\SchoolProjecteWithCleanArchitecture\\School.Domain\\School.Domain.csproj"
             }
           }
         }

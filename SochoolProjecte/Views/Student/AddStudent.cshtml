@@ -26,10 +26,10 @@
     </div>
 
     <div class="form-group row">
-        <label class="col-sm-3 col-form-label text-right" for="studentAge">العمر:</label>
+        <label class="col-sm-3 col-form-label text-right" for="studentPhone">رقم الهاتف:</label>
         <div class="col-sm-9">
-            <input type="number" asp-for="Student.Age" class="form-control" required>
-            <span class="text-danger" asp-validation-for="Student.Age"></span>
+            <input type="number" asp-for="Student.Phone" class="form-control" required>
+            <span class="text-danger" asp-validation-for="Student.Phone"></span>
         </div>
     </div>
     <div class="form-group row">
@@ -55,7 +55,7 @@
                 <option value="">اختر صنف المنشور</option>
                 @foreach (var item in Model.getListDepartment)
                 {
-                    <option value="@item.Id">@item.Name</option>
+                    <option value="@item.DID">@item.DNameAr</option>
                 }
             </select>
             <span class="text-danger" asp-validation-for="Student.DID"></span>

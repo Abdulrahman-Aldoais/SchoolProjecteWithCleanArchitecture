@@ -33,7 +33,6 @@ namespace School.Application.Features.Students.Queries.GetList
             if (responseJson.IsSuccessStatusCode)
             {
                 string data = await responseJson.Content.ReadAsStringAsync();
-                //List<GetStudentListOutput> studentInfo = JsonConvert.DeserializeObject<List<GetStudentListOutput>>(data);
                 List<GetStudentListOutput> studentInfo = JsonConvert.DeserializeObject<BaseCommandResponse<List<GetStudentListOutput>>>(data).Data;
 
                 var resultMapp = _mapper.Map<List<GetStudentListOutput>>(studentInfo);
