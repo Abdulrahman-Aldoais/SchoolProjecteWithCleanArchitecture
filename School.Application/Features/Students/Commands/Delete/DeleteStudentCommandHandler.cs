@@ -1,8 +1,6 @@
-﻿using AutoMapper;
-using Core.Application.Responses;
+﻿using Core.Application.Responses;
 using MediatR;
-using School.Application.Service.StudentServices;
-using School.Persistence.Repositories.StudentRepository;
+using System.Net;
 
 namespace School.Application.Features.Students.Commands.Delete
 {
@@ -12,36 +10,38 @@ namespace School.Application.Features.Students.Commands.Delete
     {
 
         #region Fields
-        private readonly IStudentService _studentService;
-        private readonly IStudentWriteRepository _studentWriteRepository;
-        private readonly IStudentReadRepository _studentReadRepository;
-        private readonly IMapper _mapper;
+
+        private readonly HttpClient _httpClient;
+
 
         #endregion
 
         #region Constructors
-        public DeleteStudentCommandHandler(IStudentService studentService,
-                                     IMapper mapper, IStudentWriteRepository studentWriteRepository
-            , IStudentReadRepository studentReadRepository)
+        public DeleteStudentCommandHandler(HttpClient httpClient)
         {
-            _studentService = studentService;
-            _mapper = mapper;
-            _studentWriteRepository = studentWriteRepository;
-            _studentReadRepository = studentReadRepository;
-
+            _httpClient = httpClient;
         }
         #endregion
 
         public async Task<BaseCommandResponse<string>> Handle(DeleteStudentCommand request, CancellationToken cancellationToken)
         {
-            //Check if the Id is Exist Or not
-            var studentResult = await _studentReadRepository.GetAsync(x => x.Id.Equals(request.Id));
-            //return NotFound
-            if (studentResult == null) return NotFound<string>();
-            //Call service that make Delete
-            var result = await _studentService.DeleteAsync(studentResult);
-            if (result == "Success") return Deleted<string>();
-            else return BadRequest<string>();
+
+            HttpResponseMessage responseMessage = await _httpClient.DeleteAsync("https://localhost:7014/api/Student/Api/v1/Student/" + request.Id);
+
+            var responseData = await responseMessage.Content.ReadAsStringAsync();
+            if (responseMessage.IsSuccessStatusCode)
+            {
+                if (responseData == "Delete Success") return Deleted<string>();
+            }
+            else if (responseMessage.StatusCode == HttpStatusCode.NotFound)
+            {
+                return NotFound<string>();
+            }
+            else if (responseMessage.StatusCode == HttpStatusCode.BadRequest)
+            {
+                return BadRequest<string>();
+            }
+            return BadRequest<string>();
 
         }
     }

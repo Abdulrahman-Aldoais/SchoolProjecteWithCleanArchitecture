@@ -81,41 +81,41 @@
 <body>
     <h1><a asp-controller="Student" asp-action="AddStudent" class="add-student-link">إضافة طالب</a></h1>
     <h1>بيانات الطلاب</h1>
-    @if (ViewBag.error != null)
+    @if (!Model.Any())
     {
 
-        <h1>kkkk   @ViewBag.error</h1>
-    }
-    @if (ViewBag.Success != null)
-    {
 
-        <h1> @ViewBag.Success</h1>
+        <h1>لا يوجد اي بيانات</h1>
     }
-    <table>
-        <tr>
-            <th>الرقم</th>
-            <th>الاسم العربي</th>
-            <th>الاسم الانجليزي</th>
-            <th>العنوان</th>
-            <th>العمر</th>
-            <th>الصف</th>
-            <th>الإجراءات</th>
-        </tr>
-        @foreach (var item in Model)
-        {
+    else
+    {
+        <table>
             <tr>
-                <td>@item.StudID</td>
-                <td>@item.Name</td>
-                @*<td>@item.NameEn</td>*@
-                <td>@item.Address</td>
-                <td>@item.Age</td>
-                <td>@item.DepartmentName</td>
-                <td class="action-buttons">
-                    <a asp-controller="Student" asp-action="Delete" asp-route-id="@item.StudID" class="delete-button">حذف</a>
-                    <a asp-controller="Student" asp-action="Edit" asp-route-id="@item.StudID" class="edit-button">تعديل</a>
-                </td>
+                <th>الرقم</th>
+                <th>الاسم العربي</th>
+                <th>الاسم الانجليزي</th>
+                <th>العنوان</th>
+                <th>العمر</th>
+                <th>الصف</th>
+                <th>الإجراءات</th>
             </tr>
-        }
-    </table>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.StudID</td>
+                    <td>@item.Name</td>
+                    @*<td>@item.NameEn</td>*@
+                    <td>@item.Address</td>
+                    <td>@item.Age</td>
+                    <td>@item.DepartmentName</td>
+                    <td class="action-buttons">
+                        <a asp-controller="Student" asp-action="Delete" asp-route-id="@item.StudID" class="delete-button">حذف</a>
+                        <a asp-controller="Student" asp-action="Edit" asp-route-id="@item.StudID" class="edit-button">تعديل</a>
+                    </td>
+                </tr>
+            }
+        </table>
+    }
+
 </body>
 </html>

@@ -40,10 +40,18 @@ namespace SchoolProjecte.Controllers
         #region Action
         public async Task<ActionResult<List<GetStudentListOutput>>> Index()
         {
+            try
+            {
 
-            var getAllStudent = await Mediator.Send(new GetStudentListQuery());
+                var getAllStudent = await Mediator.Send(new GetStudentListQuery());
 
-            return View(getAllStudent.Data);
+                return View(getAllStudent.Data);
+            }
+            catch (HttpRequestException ex)
+            {
+
+                throw;
+            }
 
         }
 
@@ -233,6 +241,8 @@ namespace SchoolProjecte.Controllers
                 NameEn = model.Student.NameEn,
                 Address = model.Student.Address,
                 DID = model.Student.DID,
+                Phone = model.Student.Phone,
+
             };
             var response = await Mediator.Send(createStudentCommand);
             if (response.Success)
@@ -274,7 +284,7 @@ namespace SchoolProjecte.Controllers
                 {
                     //TempData["error"] = result.Message;
                     NotifyError(result.Errors);
-                    return View();
+                    return RedirectToAction("Index", "Student");
                 }
             });
         }

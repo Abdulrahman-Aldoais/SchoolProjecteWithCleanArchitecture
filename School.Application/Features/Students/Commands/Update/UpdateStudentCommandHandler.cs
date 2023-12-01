@@ -1,9 +1,14 @@
 ﻿using AutoMapper;
 using Core.Application.Responses;
 using MediatR;
+using Microsoft.AspNetCore.Http;
+using School.Application.Features.Students.Constants;
 using School.Application.Features.Students.Dtos.Get;
 using School.Application.Service.StudentServices;
-using School.Domain.Resources;
+using School.Domain.Entities;
+using System.Security.Claims;
+using System.Text;
+using System.Text.Json;
 
 namespace School.Application.Features.Students.Commands.Update
 {
@@ -14,13 +19,20 @@ namespace School.Application.Features.Students.Commands.Update
 
         private readonly IStudentService _studentService;
         private readonly IMapper _mapper;
+        private readonly HttpClient _httpClient;
+        private readonly IHttpContextAccessor _contextAccessor;
+        public string UserId { get => _contextAccessor.HttpContext?.User?.FindFirstValue("uid"); }
         public UpdateStudentCommandHandler(
             IMapper mapper,
-            IStudentService studentService)
+            IStudentService studentService,
+            HttpClient httpClient,
+            IHttpContextAccessor contextAccessor)
         {
 
             _mapper = mapper;
             _studentService = studentService;
+            _httpClient = httpClient;
+            _contextAccessor = contextAccessor;
         }
         public async Task<BaseCommandResponse<GetStudentOutput>> Handle(UpdateStudentCommand request, CancellationToken cancellationToken)
         {
@@ -39,19 +51,30 @@ namespace School.Application.Features.Students.Commands.Update
             else
             {
 
-                //Check if the Id is Exist Or not
-                var student = await _studentService.GetStudentByIDWithIncludeAsync(request.Id);
+                var studentMapp = _mapper.Map<Student>(request);
+                studentMapp.CreatedBy = UserId;
+                string data = JsonSerializer.Serialize(studentMapp);
 
-                //return NotFound
-                if (student == null) return BadRequest<GetStudentOutput>(SharedResourcesKeys.UserIsNotFound);
-                //mapping Between request and student
-                var studentmapper = _mapper.Map(request, student);
-                //Call service that make Edit
-                var result = await _studentService.UpdateStudentInfo(studentmapper);
-                //return response
-                if (result == "Success") return Success(response.Data, SharedResourcesKeys.Updated);
-                //Success<GetStudentOutput>(response.Data);
-                else return BadRequest<GetStudentOutput>(SharedResourcesKeys.UpdateFailed);
+                StringContent content = new StringContent(data, Encoding.UTF8, "application/json");
+                HttpResponseMessage responseEditStudent = await _httpClient.PostAsync("https://localhost:7014/api/Student/Api/v1/Student/Create", content);
+
+                if (responseEditStudent.IsSuccessStatusCode)
+                {
+
+                    //var dtoMapper = _mapper.Map<GetStudentOutput>(studentMapp);
+                    response.Id = studentMapp.StudID;
+                    response.Data = null;
+                    response.Success = true;
+                    response.Message = StudentMessages.UpdatedSuccess;
+                    response.Errors = null;
+                }
+                else
+                {
+                    response.Success = false;
+                    response.Message = "فشلت عملية تحديد بيانات الطالب";
+                    response.Errors = new List<string> { "خطاء غير معروف قد يكون بسبب فشل في عملية الاتصال بالنظام الاخر " };
+                }
+
             }
             return response;
         }

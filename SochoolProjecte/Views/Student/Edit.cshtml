@@ -27,10 +27,15 @@
 
     </div>
     @*<div>
-        <label for="departmentName">العمر:</label>
-        <input type="number" asp-for="Student.Age" required>
-        <span class="text-danger" asp-validation-for="Student.Age"></span>
-    </div>*@
+            <label for="departmentName">العمر:</label>
+            <input type="number" asp-for="Student.Age" required>
+            <span class="text-danger" asp-validation-for="Student.Age"></span>
+        </div>*@
+    <div>
+            <label for="departmentName">الهاتف:</label>
+            <input type="number" asp-for="Student.Phone" required>
+            <span class="text-danger" asp-validation-for="Student.Phone"></span>
+        </div>
     <div>
         <label for="departmentLocation">القسم:</label>
         <select asp-for="Student.DID" class="form-control" required>

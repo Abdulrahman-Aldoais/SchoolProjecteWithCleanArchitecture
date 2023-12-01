@@ -2,7 +2,7 @@
 using Core.Application.Responses;
 using MediatR;
 using Microsoft.AspNetCore.Http;
-using School.Application.Features.Departments;
+using School.Application.Features.Students.Constants;
 using School.Application.Features.Students.Dtos.Get;
 
 using School.Domain.Entities;
@@ -72,20 +72,19 @@ namespace School.Application.Features.Students.Commands.Create
 
                 if (responseAddStudent.IsSuccessStatusCode)
                 {
-                    var responseData = await responseAddStudent.Content.ReadAsStringAsync();
-                    var studentOutput = JsonSerializer.Deserialize<GetStudentOutput>(responseData);
 
-                    response.Id = studentOutput.StudID;
-                    response.Data = studentOutput;
+                    var dtoMapper = _mapper.Map<GetStudentOutput>(studentMapp);
+                    response.Id = studentMapp.StudID;
+                    response.Data = dtoMapper;
                     response.Success = true;
-                    response.Message = DepartmentMessages.CreatedSuccess;
+                    response.Message = StudentMessages.CreatedSuccess;
                     response.Errors = null;
                 }
                 else
                 {
                     response.Success = false;
-                    response.Message = "Failed to create student";
-                    response.Errors = new List<string> { "Error in API call" }; // تعيين رسالة الخطأ حسب احتياجاتك
+                    response.Message = "فشلت عملية إضافة بيانات اسلطالب";
+                    response.Errors = new List<string> { "خطاء غير معروف قد يكون بسبب فشل في عملية الاتصال بالنظام الاخر " };
                 }
             }
 
